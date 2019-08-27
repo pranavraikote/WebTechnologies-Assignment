@@ -9,6 +9,6 @@ Repository for Web Technologies Assignment Projects
 
 
 
-# Faculty Co ordinator
+# Faculty Co-ordinator
 Mr. Shankar R, Asst Prof, Dept Of CSE, BMSIT&M
 

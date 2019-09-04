@@ -17,7 +17,8 @@ Repository for Web Technologies Assignment Projects
 7) To add files to the git repository, use "git add ."
 8) Check status of the files added using "git status". This will return information on how many files added using git.
 9) Commit/Save your version of files using - "git commit". This will open a nano editor and will ask for a message for the commit. This message usually says about changes/modification done to your files for each version.
-10) 
+10) Don't push the repository until further instructions. Don't modify the existing file called .gitignore or the default directory strucure when you cloned it.
+11) Further instructions will be updated here on the README.md file only.
 
 
 

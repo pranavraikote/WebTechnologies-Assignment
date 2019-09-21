@@ -1,6 +1,0 @@
-git clone
-git add .
-git commit
-git log --oneline
-git push
-git revert #commit

@@ -5,7 +5,7 @@ Repository for Web Technologies Assignment Projects
 1) Add all your project files in one folder.
 2) Commit only the root folder to the master branch.
 3) Folder name should be your first name and short title of your project (For ex: Pranav_timetable)
-4) Directory structure for your folder should be css, fonts, img, js, index.html
+4) Directory structure for your folder should be css, img, js, index.html
 
 # How to add files to this repository
 1) Create a github account on - "https://github.com/"

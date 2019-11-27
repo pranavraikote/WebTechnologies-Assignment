@@ -1,0 +1,73 @@
+*{
+	margin: 0;
+	padding:0;
+}
+#top{
+	text-align: center;
+	background-color: #e8be14;
+	font-family: 'Signika', sans-serif;
+	padding: 5px;
+	font-size: 18px;
+}
+#navv{
+	font-family: 'Signika', sans-serif;
+	background-color: #252525;
+	color: #e8be14;
+	padding: 2%;
+}
+.col-md-3 p{
+	font-size: 40px;
+	font-weight: 600;
+}
+.col-md-1{
+	padding: 10px;
+}
+.col-md-1 a{
+	background-color: #e8be14;
+	color: #252525;
+	padding: 10px 20px;
+	text-align: center;
+}
+
+/*------------------ MID MAIN CSS START -----------------*/
+#b{
+	color: black;
+	background-color: #e8be14;
+	font-family: 'Signika' , Questrial , sans-serif;
+	font-size: 20px;
+	font-weight: 500px;
+	padding: 1% 0%;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 50px;
+	margin-left: 2px;
+	border-radius: 2px;
+	text-decoration: none;
+	text-align: center;
+}
+#exp{
+	text-decoration: none;
+	color: black;
+}
+#d{
+	text-align: center;
+	padding: 1%;
+	color: #e8be14;
+	background-color: #252525;
+	font-size: 40px;
+	font-weight: 500px;
+	font-family: 'Signika' , sans-serif;
+}
+/*------------------ FOOTER -----------------*/
+#footer{
+	background-color: #252525;
+	color: white;
+	padding: 1%;
+}
+#sd{
+	text-decoration: none;
+	color: #e8be14;
+	font-size: 15px;
+	font-weight: 600px;
+	font-family: 'Questrial' sans-serif;
+}

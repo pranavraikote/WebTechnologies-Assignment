@@ -1,0 +1,177 @@
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+</head>
+	<style>
+	body {
+		background:-webkit-linear-gradient(60deg,cyan,maroon);
+	     }
+	h1 {
+		
+		font-color: #22aaff;
+		margin-top: 200 px;
+background-color: #ee8822;
+
+	}     
+	hr
+	{
+		 outline-color: red;
+
+	}
+	.q1
+	{
+		float: left;
+		margin: 25px;
+		padding: 4px ;
+		background-image: url(12.jpg);
+		width: 400px;
+		height: 300px;
+		border : 3px ;
+		border-radius: 20px;
+		opacity: .8;
+	}
+	#q2
+	{
+		float: left;
+		margin: 25px;
+		padding: 4px ;
+		padding-left: 12px;
+		
+		
+		border : 3px ;
+	}
+	img {
+		width: 325px;
+		height: 300px
+	}
+	.q5 {
+		float: left;
+		padding: 10px;
+		background:-webkit-linear-gradient(60deg,black,white);
+border-radius: 10px;
+
+
+	}
+	#b1
+	{
+		height: 30px;
+		width: 90px;
+		border-bottom-right-radius: 10px;
+		border-top-left-radius: 10px;
+	}
+#t1{
+	width: 100px;
+	height: 25px;
+	border-spacing: 2px;
+}
+.q11
+{
+	margin-left: 0px;
+	margin-top: 400px;
+	background: -webkit-linear-gradient(20deg,black,cyan);
+	opacity:.85;
+	
+}
+
+div.thumbnail {
+    margin: 5px;
+    margin-top: 150px;
+    border: 4px solid #ccc;
+    float: left;
+    width: 180px;
+    height: 250px;
+    width: 200px;
+}
+
+div.thumbnail:hover {
+    border:  solid #777;
+}
+
+div.thumbnail img {
+    width: 100%;
+    height: 100%;
+}
+
+div.caption {
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+	</style>
+<body bgcolor="#00eedd"> 
+<center><h1>
+	<a href="#colcontent" data-toggle="collapse">AB:
+  </a><div id="colcontent" class="collapse in"><h3>AMITABH BACHCHAN</h3></div></h1><hr>
+
+</center>
+ <br>
+
+ <div class='q1' >
+ 	<h3 align="center">ACTOR</h3><br>
+ 	<p id="w1"><i>The sehenshah of Indian Cinema a megastar ,reknowned globally</i> </p>
+ 	<p><i>for his acting his persona his humility.</i> </p>
+ </div>
+ <div class='q1'>
+ 	<h3 align="center">SPEAKER</h3><br>
+ 	<p id="w2"><i>A brilliant speaker ,once discarded for his heavy rusty voice</i> </p>
+ 	<p><i>is now the voice indian cinema</i> </p>
+ </div>
+ 	
+ <div class="clearfix visible-md visible-sm"></div>	
+ <div class='q1' ><h3 align="center">SINGER</h3><br><p id='w3'><i>He can sing just as beautifully as he can Recite a poem</i> </p>
+ 	<p><i>He has sung in movies of hindi and Bengali origin</i> </p>
+ </div>
+ 
+ <br>
+ <div class="container">
+ 	<div class="row">
+ 		<div class="clearfix visible-md visible-sm"></div>
+ 		<div class="col-md-3">
+ 			<div class="thumbnail">
+<img src="w2.jpg" class="img-responsive" alt="Cinque Terre" >
+	<p class="caption">SHRI HARIVANSH RAI BACHAN</p></div></div>
+<div class="clearfix visible-md visible-sm"></div>
+<div class="col-md-3">
+	<div class="thumbnail">
+	<img src="q1.jpg" class="img-responsive" alt="Cinque Terre" >
+	<p class="caption">SHRIMATI TEJI SHRI BACHAN</p></div></div>
+<div class="clearfix visible-md visible-sm"></div>
+<div class="col-md-3">
+	<div class="thumbnail">
+	<img src="a1.jpg" class="img-responsive" alt="Cinque Terre" >
+	<p class="caption"> JAYA BACHAN WITH AB</p></div></div>
+<div class="clearfix visible-md visible-sm"></div>
+
+<div class="col-md-3">
+	<div class="thumbnail">
+	<img src="as.jpg" class="img-responsive" alt="Cinque Terre"  >
+	<p class="caption">AB AND AB</p></div></div>
+	</div>
+</div>
+
+<br>
+
+
+	<div class='q11'>
+
+		<h2 align='center'> LIFE OF AB</H2>
+			<p id='ab1' ><font color='white'>Amitabh Harivansh Rai Shrivastava Bachchan ,born 11 October 1942) is an Indian film actor. He first gained popularity in the early 1970s for movies like Zanjeer and Deewaar, and was dubbed India's first "angry young man" for his on-screen roles in Bollywood. Referred to as the "Shahenshah of Bollywood", "Star of the Millennium" or "Big B",he has since appeared in over 190 Indian films in a career spanning almost five decades. Bachchan is widely regarded as one of the greatest and most influential actors in the history of Indian cinema.So total was his dominance on the movie scene in the 1970s and 1980s that the French director François Truffaut called him a "one-man industry."
+
+Bachchan has won numerous accolades in his career, including four National Film Awards as Best Actor and many awards at international film festivals and award ceremonies. He has won fifteen Filmfare Awards and is the most nominated performer in any major acting category at Filmfare, with 41 nominations overall. In addition to acting, Bachchan has worked as a playback singer, film producer and television presenter. He has hosted several seasons of the game show, Kaun Banega Crorepati, India's version of the game show franchise, Who Wants to Be a Millionaire?. He also had a stint in politics in the 1980s.
+
+The Government of India honoured him with the Padma Shri in 1984, the Padma Bhushan in 2001 and the Padma Vibhushan in 2015 for his contributions to the arts.[16] The Government of France honoured him with its highest civilian honour, Knight of the Legion of Honour, in 2007 for his exceptional career in the world of cinema and beyond.[17]
+
+Bachchan made his Hollywood debut in 2013 with The Great Gatsby, in which he played a non-Indian Jewish character, Meyer Wolfsheim.</font></p></div>
+<p id='aq'>
+	<center>DISCLAIMER:This wbesite is fanmade and in no way privately owned site</center></p>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

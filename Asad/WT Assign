@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Article Blogger!</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+  	<p></p>
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<ul class="nav nav-pills">
+				<li class="nav-item">
+					 <a class="nav-link btn btn-primary" href="#">Home <span class="badge badge-light">42</span></a>
+				</li>
+				<li class="nav-item">
+					 <a class="nav-link" href="#">People <span class="badge badge-secondary">16</span></a>
+				</li>
+			</ul>
+			<p></p>
+			
+			<h2>
+				Article Blogger!
+			</h2>
+			<p></p>
+			<p>
+				<span>This basic website helps people with no or very little knowledge connect to the digital world by pouring their thoughts out as blogs.</span>
+			
+				Top blogs appear in the homepage and all of the other blogs can be accessed by simply typing their name in the address bar. Any individual's blogs are all listed below row-wise.
+			</p>
+			 
+			<button type="button" class="btn btn-success">
+				Learn More
+			</button>
+			<p></p><br>
+			<p></p><br>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" alt="Bootstrap Thumbnail First" src="https://www.layoutit.com/img/people-q-c-600-200-1.jpg">
+						<div class="card-block">
+							<h5 class="card-title">
+								Bibhu Ranjan
+							</h5>
+							<p class="card-text">
+								Probably the most responsible son of mother Nature, he is always concerned about her and has a really sweet voice that he uses to loathe people into listening to him.
+							</p>
+							<p>
+								<a class="btn btn-primary" href="#">Read More</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" alt="Bootstrap Thumbnail Second" src="https://www.layoutit.com/img/city-q-c-600-200-1.jpg">
+						<div class="card-block">
+							<h5 class="card-title">
+								Vinay Kumar
+							</h5>
+							<p class="card-text">
+								Coming from a family of politicians, he knows all about politics. May turn out to be almost the only politician in the future who doesn't turn back from his word.
+							</p>
+							<p>
+								<a class="btn btn-primary" href="#">Read More</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" alt="Bootstrap Thumbnail Third" src="https://www.layoutit.com/img/sports-q-c-600-200-1.jpg">
+						<div class="card-block">
+							<h5 class="card-title">
+								Hrishi Jothady
+							</h5>
+							<p class="card-text">
+								Gamer By Heart, Developer By nature, Unemployed by status. His bio almost tells everything about him. This hardcore gamer is a brilliant developer with an unmatched amusing capability.
+							</p>
+							<p>
+								<a class="btn btn-primary" href="#">Read More</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<nav>
+				<ul class="pagination">
+					<li class="page-item">
+						<a class="page-link" href="#">Previous</a>
+					</li>
+					<li class="page-item">
+						<a class="page-link" href="#">1</a>
+					</li>
+					<li class="page-item">
+						<a class="page-link" href="#">2</a>
+					</li>
+					<li class="page-item">
+						<a class="page-link" href="#">3</a>
+					</li>
+					<li class="page-item">
+						<a class="page-link" href="#">4</a>
+					</li>
+					<li class="page-item">
+						<a class="page-link" href="#">5</a>
+					</li>
+					<li class="page-item">
+						<a class="page-link" href="#">Next</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Ripley's!</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+p{
+  font-size: 24px;
+}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#know" class="w3-bar-item w3-button w3-padding-large w3-hide-small">KNOW MORE</a>
+    <a href="#trending" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TRENDING</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large">FIND US</a>
+    </div>
+</div>
+
+<!-- Navbar on small screens  -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#know" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME</a>
+  <a href="#trending" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TRENDING</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">FIND US</a>
+</div>
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://cdn.getyourguide.com/img/tour_img-1492390-148.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>NIAGARA FALLS</h3>  
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://1h23on8hs5s44c2iqm9tze2x-wpengine.netdna-ssl.com/wp-content/uploads/2015/05/believeitornot1.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>GATLINBURG</h3>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="rip.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>BRANSON</h3>    
+    </div>
+  </div>
+</div>
+  <!-- Know More -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="know">
+    <h2 class="w3-wide">RIPLEY'S..BELIEVE IT OR NOT!</h2>
+    <p class="w3-opacity"><i>We love Strange!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-center">
+        <p>Founder</p>
+        <img src="https://cdn.britannica.com/23/134323-050-03EEAADF/Robert-LeRoy-Ripley.jpg" class="w3-round w3-margin-bottom" alt="Robert LeRoy Ripley" style="width:30%">
+      </div>
+    </div>
+    <p class="w3-justify">Ripley's Believe It or Not! is an American franchise, founded by Robert Ripley, which deals in bizarre events and items so strange and unusual that readers might question the claims. Originally a newspaper panel, the Believe It or Not feature proved popular and was later adapted into a wide variety of formats, including radio, television, comic books, a chain of museums, and a book series. Established by LeRoy Robert Ripley in 1918, Ripley's collection now includes 20,000 photographs, 30,000 artifacts and more than 100,000 cartoon panels!</p>
+  </div>
+
+  <!-- Collections -->
+  <div class="w3-black" id="trending">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">CHECK OUT SOME OF OUR COLLECTIONS</h2>
+      <p class="w3-opacity w3-center"><i>Visit us to witness the strangest!</i></p><br>
+
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://www.ripleys.com/wp-content/uploads/2019/10/Retrograde.jpg" alt="Mercury" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Mercury Retrogade</b></p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('id01').style.display='block'">Know More</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://www.ripleys.com/wp-content/uploads/2019/09/Monkey-Feature.jpg" alt="Stars" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Monkey Buffet</b></p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('id02').style.display='block'">Know More</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://www.ripleys.com/wp-content/uploads/2019/11/Two-Headed-Header.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Two Headed Header</b></p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('id03').style.display='block'">Know More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-red w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('id01').style.display='none'" 
+       class="w3-button w3-red w3-xlarge w3-display-topright">×</span>
+        <h4 class="w3-wide w3-center">MERCURY RETROGRADE</h4>
+      </header>
+      <div class="w3-container" style="font-size: 20px;"><br>
+        In case you haven’t heard—or felt the sense of dread in the air—Mercury goes into retrograde on Halloween, the spookiest night of the year. Mercury Retrograde is just one big optical illusion. The planet Mercury, as viewed from Earth, simply appears to reverse its orbit and travel backward around the sun. This illusion is simply due to Mercury moving slower than Earth. Because Mercury orbits in 88 days compared to Earth’s 365, this inner planet laps our own three times this year.<br>
+      </div>
+    </div>
+  </div>
+
+  <div id="id02" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-red w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('id02').style.display='none'" 
+       class="w3-button w3-red w3-xlarge w3-display-topright">×</span>
+        <h4 class="w3-wide w3-center">MONKEY BUFFET</h4>
+      </header>
+      <div class="w3-container" style="font-size: 20px;"><br>
+        Every year, the city of Lopburi, in central Thailand, goes to the monkeys. On the last Sunday of November, residents host a feast exclusively for 3,000 long-tailed macaques. Serving massive towers of colorful fruit and vegetables, as well as just about every sweet you can imagine, the festival is held as a “thank you” from locals to the monkeys for attracting tourists to their city. However, the roots of the buffet run much deeper than simple gratitude.
+      </div>
+    </div>
+  </div>
+
+  <div id="id03" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-red w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('id03').style.display='none'" 
+       class="w3-button w3-red w3-xlarge w3-display-topright">×</span>
+        <h4 class="w3-wide w3-center">TWO HEADED HEADER</h4>
+      </header>
+      <div class="w3-container" style="font-size: 20px;"><br>
+        Craniofacial duplication, or diprosopus, is a rare condition that causes an animal to have a second face. It’s often fatal at or around birth. Scientists aren’t 100% certain of the exact mechanisms that cause diprosopus. Unlike conjoined twinning, craniofacial duplication isn’t the result of two fetuses merging in the womb. It’s more like one animal developing twice as much face as it was supposed to.
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <img src="https://storage.googleapis.com/kx-live-ih/images/st-petersburg-florida.2e16d0ba.fill-800x450.jpg" class="w3-image w3-greyscale-min" style="width:50%">
+      </div>
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Florida, US<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: ripleys@gmail.com<br>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('id01');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+var modal2 = document.getElementById('id02');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+var modal3 = document.getElementById('id03');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap 4, from LayoutIt!</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=ErLFIjFSQZ-iSa8HIde_aHwwFtdkMkdLwjxcSXN61LvoVyw02M6tMVkK1rs-aNrySpx-KrWrOZXv2f_d6-b-Yg" charset="UTF-8"></script></head>
+  <body>
+
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<h3 class="text-center">
+				Star Trek
+			</h3>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>
+							<strong>Trekking</strong> <span>is an adventure hobby that is pursued by most children who love nature. It can be considered as both a hobby and a sport. Taking up trekking as a hobby can offer both mental and health benefits to the children. You have the taste for adventure and want to experience an adrenaline rush then you have to take up the sport.</span>
+						</th>
+						<th>
+						</th>
+						<th>
+						</th>
+						<th>
+						</th>
+					</tr>
+				</thead>
+				
+			</table>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" alt="Bootstrap Thumbnail First" src="https://www.layoutit.com/img/people-q-c-600-200-1.jpg">
+						<div class="card-block">
+							<h5 class="card-title">
+								Sunset
+							</h5>
+							<div>
+								Capture the nature like never before with the mesmerizing atmosphere and beautiful surrounding. Relive the memory and back to 16!!
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" alt="Bootstrap Thumbnail Second" src="https://www.layoutit.com/img/city-q-c-600-200-1.jpg">
+						<div class="card-block">
+							<h5 class="card-title">
+								City Lights
+							</h5>
+							<div>
+								Visit the never before night lights and explore the elegant and mouth watering restaurants.
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" alt="Bootstrap Thumbnail Third" src="https://www.layoutit.com/img/sports-q-c-600-200-1.jpg">
+						<div class="card-block">
+							<h5 class="card-title">
+								Country Side
+							</h5>
+							<div>
+								Visit the era of Incredible India with the soft aroma of the ancient soil , far away from the hustle bustle into the realm of ultimate bliss.
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="jumbotron">
+				<h2>
+					Our Journey
+				</h2>
+				<p>
+					Started in the early 2000's, Star Trek has become one of the leading providers of Adventurous excursions from the south till the Mountain Ranges in the North to give you a sharp adrenaline rush. With a group of 4 to 400 in just a decade !! Exploring is our Goal and adventure is our oxygen. From the depths of the ocean at the Great Barrier Reef to the heights in UAE for Sky Diving join the group to experience never before Thrill and shiver through the spine.
+				</p>
+				<p>
+					<a class="btn btn-primary btn-large" href="#">Learn more</a>
+				</p>
+			</div> 
+			<address>
+				 <strong>Twitter, Instagram, Inc.</strong><br>96, 2nd Main 3rd Cross
+			</address>
+			<div>
+				Tin factory, Udayanagar.
+			</div>
+			<div>
+				Bangalore-560016.
+			</div>
+			<div>
+				Karnataka.
+			</div>
+		</div>
+	</div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

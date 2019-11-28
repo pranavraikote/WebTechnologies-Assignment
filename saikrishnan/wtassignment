@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>My Resume</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+      <ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+<br>
+<br>
+			<div class="jumbotron card card-block">
+				<h2>
+					My Resume
+				</h2>
+					<span>This web page contains details about myself. Please surf through to know more about me. Enjoy!! ;)</span>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" alt="Bootstrap Thumbnail First" src="https://www.layoutit.com/img/people-q-c-600-200-1.jpg">
+						<div id ="about" class="card-block">
+							<h5 class="card-title">
+								About Me
+							</h5>
+							<p>
+								Versatile and analytic individual with a practical hands-on approach experience, aimed at achieving results to benefit the company in terms of high revenues and increased customer base. Excellent presentation skills and a strong ability to quickly establish rapport with people from diverse backgrounds.
+							</p>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" alt="Bootstrap Thumbnail Second" src="https://www.layoutit.com/img/city-q-c-600-200-1.jpg">
+						<div class="card-block">
+							<h5 class="card-title">
+								Achievements
+							</h5>
+							<p class="card-text">
+								1. 3rd Place Winners at National Level Project Competition - VIVID 2019 held at SSN College Chennai
+							</p>
+							<p class="card-text">
+								2. 2nd Place at BITES 2019 - State Level Project Competition held at IIIT Bangalore
+							</p>
+							<p class="card-text">
+								3. Certified courses on 'Neural Networks and Deep Learning' and 'Tensor Flow in Practice' by deeplearning.ai
+							</p>
+							<p class="card-text">
+								4. Finalists in India Innovation Challenge Design Contest 2018 conducted by DST &amp; Texas Instruments and Semi Finalists in CSI InApp Awards 2019 5. CoDecode finalist- A national level coding competition organized by IIT Bombay
+							</p>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" alt="Bootstrap Thumbnail Third" src="https://www.layoutit.com/img/sports-q-c-600-200-1.jpg">
+						<div class="card-block">
+							<h5 class="card-title">
+								Projects
+							</h5>
+							<p class="card-text">
+								1. VISION - Vigilant Image Sensing Intelligent drONe
+							</p>
+							<p class="card-text">
+								2. Gesture Controlled Obstacle Avoiding Robot
+							</p>
+							<p class="card-text">
+								3. i-Lock
+							</p>
+							<p class="card-text">
+								4. Smart Bot
+							</p>
+							<p class="card-text">
+								5. AAA - Automated Attendance App
+							</p>
+							<p class="card-text">
+								6. Sahay - A helping hand
+							</p>
+
+						</div>
+					</div>
+				</div>
+			</div>
+      <br>
+			<table class="table table-sm">
+				<thead>
+					<tr>
+						<th>
+							#
+						</th>
+						<th>
+							Professional Skills
+						</th>
+						<th>
+							Competency
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							1
+						</td>
+						<td>
+							Python
+						</td>
+						<td>
+							Advanced
+						</td>
+					</tr>
+					<tr class="table-active">
+						<td>
+							2
+						</td>
+						<td>
+							Machine Learning and AI
+						</td>
+						<td>
+							Intermediate
+						</td>
+					</tr>
+					<tr class="table-success">
+						<td>
+							3
+						</td>
+						<td>
+							Image Processing
+						</td>
+						<td>
+							Intermediate
+						</td>
+
+					</tr>
+					<tr class="table-warning">
+						<td>
+							4
+						</td>
+						<td>
+							HTML and CSS
+						</td>
+						<td>
+							Intermediate
+						</td>
+
+					</tr>
+					<tr class="table-danger">
+						<td>
+							5
+						</td>
+						<td>
+							Arduino
+						</td>
+						<td>
+							Intermediate
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="card">
+				<h5 class="card-header">
+					Employment History
+				</h5>
+				<div class="card-body">
+					<p class="card-text">
+						<strong>1)Dell Technologies, Bengaluru, Karnataka - Summer Intern</strong>
+					</p>
+					<p class="card-text">
+						<span>-Work on Natural Language Processing and Machine Learning to give solutions to enterprise level problems Get well versed with the enterprise level projects and its work culture</span>
+					</p>
+					<p class="card-text">
+						<strong>2)Vijna Labs Private Limited, Bengaluru, Karnataka - Machine Learning Intern</strong>
+					</p>
+					<p class="card-text">
+						-Basically worked on Image Processing and Machine Vision Store, retrieve, and manipulate data for analysis of Huge data sets for Image processing using Machine Learning techniques Writing various Python scripts for file handling
+					</p>
+					<p class="card-text">
+						<strong>3)Spyry Technologies, Bengaluru, Karnataka - Cyber Security Intern</strong>
+					</p>
+					<p class="card-text">
+						-Modify computer security files to incorporate new software, correct errors, or change individual access status. Develop plans to safeguard computer files against accidental or unauthorized modification, destruction, or disclosure and to meet emergency data processing needs.
+					</p>
+					<p class="card-text">
+						<strong>4)Abyeti Technologies Private Limited, Bengaluru, Karnataka Marketing Intern - Campus Ambassador</strong>
+					</p>
+					<p class="card-text">
+						-Confer with production or support personnel to produce or coordinate production of advertisements or promotions. Establish or maintain cooperative relationships with representatives of community, consumer, employee, or public interest groups.
+					</p>
+
+				</div>
+			</div>
+      <br>
+      <div id="contact" class="row">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+      <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1 style="color:black">Sai Krishnan</h1>
+      <p style="color:black">Student, BMSIT</p>
+      <p style="color:black">+91-9632311139</p>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<br>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

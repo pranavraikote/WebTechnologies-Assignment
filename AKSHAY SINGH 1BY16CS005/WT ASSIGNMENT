@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+<meta name="p:domain_verify" content="541a22502efb41008155495e818e1818"/>
+    <meta name="description" content="IES provides free Career Counselling & Admissions to top Indian Universities.Winner of Karnataka Service Excellence Award & Education Excellence Award" />
+    <meta name="author" content="Indian Educational Services">
+    <meta name="keywords" content="education consultancy in bangalore, education consultants in bangalore, bangalore admission consultants, admission consultant, admission in bangalore" />
+    <meta name="google-site-verification" content="vzqdB0zDqit84QoF4a7lbCS5O0Ezl5kmyOyu7B1IsVw" />
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>Education Consultants in India | Admission Consultants in Bangalore</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link href="../maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/css/bootstrapValidator.css" />
+    <link rel="stylesheet" href="../maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="canonical" href="index.html" />
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '../www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-73220577-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+
+<body>
+    
+    <div id="loading-page">
+        <div id="loading-image">
+            <img src="keypage/demos/image-preload/35.gif" alt="Images-loading">
+        </div>
+    </div>    
+    
+    <header id="header" role="banner">
+        <div class="container">
+            <div class="row">
+                <div class="navbar-wrapper ">
+                    <div class="col-xs-12 navbar navbar-fixed-top navedit">
+                        <div class=" navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                            <a class="navbar-brand" href="index.html"> <img class="img-responsive" src="images/ies/logo1.png" alt="educational-consultant-in-bangalore"> </a>
+                        </div>
+                        <div class="navbar-collapse collapse wenav" style="max-height: 350px;">
+                            <ul class="nav navbar-nav navbar-right" style="margin-right:-40px;">
+                                
+                                
+                                <li class="scroll"><a href="colleges-course.html">Colleges & Courses</a>
+                                </li>
+                                
+                                <li class="scroll"><a href="contact-us.html">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="home">
+        <div id="myCarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active banitem"> <img class="img-responsive ban-image" src="images/ies/slider/ban/9.jpg" alt="slider">
+                    <div class="carousel-caption">
+                        <h4> Choose the right Courses & Colleges.</h4>
+                        <p class="scrolldown"> <a class="smoothscroll" href="#bot" id="top1"><i class="fa fa-angle-double-down fa-2x"></i></a>
+                        </p>
+                        <div id="bot"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <div class="col-xs-12">
+                <div class="dash" id="dash">
+                    <hr/>
+                </div>
+                <div class="dash1">
+                    <hr/>
+                </div>
+                <h3 class="how" id="down">HOW IT WORKS</h3>
+                <div class="col-xs-12 col-md-3 work">
+                    <a href="#"><img src="images/ies/scientific%20icon.jpg" alt="scientific career counselling"> </a>
+                    <h4>Scientific Career Counselling</h4>
+                    <h5>Use our Map My Talent & Brain Matrix Test career-mapping tool to find your most suitable career.</h5>
+                    <ul class="ulsup1">
+                        <li><a href="brain-matrix.html">Brain Matrix Test</a>
+                        </li>
+                        <li><a href="map-my-talent.html">Map My Talent</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-md-3 work">
+                    <a href="#"><img src="images/ies/guidance%20icon.jpg" alt="Admission guidance"> </a>
+                    <h4>Admission Guidance</h4>
+                    <h5>Get Guidance for colleges that offer your desired course like their location, affiliation, fees, placement, review, & latest updates.</h5>
+                </div>
+                <div class="col-xs-12 col-md-3 work">
+                    <a href="#"><img src="images/ies/application%20icon.jpg" alt="application and documentation"> </a>
+                    <h4>Application & Documentation</h4>
+                    <h5>Process your application in institute of your choice as per given admission procedure at discounted fees.</h5>
+                </div>
+                <div class="col-xs-12 col-md-3 work">
+                    <a href="#"><img src="images/ies/get%20admission%20icon.jpg" alt="get admission"> </a>
+                    <h4>Get Admission</h4>
+                    <h5>Get Admission letter & Education Loan facilities.</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="event">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <div id="wrapper">
+                        <h3 class="text-center">News Events</h3>
+                        <div class="newstape">
+                            <div class="newstape-content">
+                                <div class="news-block">
+                                    <h4>PES University Bangalore</h4> <small>24-02-2017</small>
+                                    <p class="text-justify"> <a href="blog/pesit-university-bangalore/index.html" target="_blank">PESIT was established in 1972 at Bangalore with only 40 students and is today focused on 4 main educational areas engineering, medicine ...</a>
+                                    </p>
+                                    <hr/>
+                                </div>
+                                <div class="news-block">
+                                    <h4>Post Graduate Diploma in Business Management (PGDM)</h4> <small>17-02-2017</small>
+                                    <p class="text-justify"> <a href="blog/post-graduate-diploma-in-business-management/index.html" target="_blank">A Post Graduate Diploma in Management, PGDM course is offered by Institutions which conduct management courses as autonomous entities ...</a>
+                                    </p>
+                                    <hr/>
+                                </div>
+                                <div class="news-block">
+                                    <h4>Admission in MBA</h4> <small>10-02-2017</small>
+                                    <p class="text-justify"> <a href="blog/admission-in-mba/index.html" target="_blank">As per AICTE figures, about 3,54,000 students enrolled for MBA in 3,364 institutions across India last year...</a>
+                                    </p>
+                                    <hr/>
+                                </div>
+                                <div class="news-block">
+                                    <h4>Why you should go for an MBA ?</h4> <small>03-02-2017</small>
+                                    <p class="text-justify"> <a href="blog/why-you-should-go-for-an-mba/index.html" target="_blank">96%. Those are the number of employers across the globe, who believe that MBA graduates create value for their company!...</a>
+                                    </p>
+                                    <hr/>
+                                </div>
+                                <div class="news-block">
+                                    <h4>Top 5 factors to consider while choosing a College</h4> <small>27-01-2017</small>
+                                    <p class="text-justify"> <a href="blog/top-factors-to-consider-while-choosing-a-college/index.html" target="_blank">There are so many ways to choose a college to pursue higher education. You could choose one on the basis of the city you want to live in or where your parents or siblings studied ...</a>
+                                    </p>
+                                    <hr/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="color-7">
+                        <a href="iescor/customercntl.html" target="_blank"><img src="images/ies/onlineapp.jpg" alt="onlineapp" class="applink1" /> </a>
+                        <a href="#"><img src="images/ies/freecareer.jpg" alt="freecareer" class="applink" style="margin-top:20px;padding-bottom:20px;" /> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="explore">
+        <div class="container" style="padding-left:0">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="numberCircle"> <span class="counter cnt">10</span>
+                        <h5 class="spanbot">Glorious <br/>Years</h5>
+                    </div>
+                    <div class="numberCircle "><span class="counter cnt">2</span>
+                        <h5 class="spanbot">Awards For Excellence In Consulting</h5>
+                    </div>
+                    <div class="numberCircle"><span class="counter">7000</span>
+                        <h5 class="spanbot">+Students Counselled<h5></div><div class="numberCircle"><span class="counter cnt">9</span><h5 class="spanbot">Offices In <br/>India</h5>
+                    </div>
+                    <div class="numberCircle"><span class="counter cnt">3</span>
+                        <h5 class="spanbot">International Offices</h5>
+                    </div>
+                    <div class="numberCircle"><span class="counter ">100</span>
+                        <h5 class="spanbot">Top <br/> Franchising Opportunity</h5>
+                    </div>
+                    <div class="numberCircle"><span class="counter">130</span>
+                        <h5 class="spanbot">+Associated Institutes</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="twitter1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <div class="verline">
+                        <div class="fb">
+                            <a href="https://www.facebook.com/IndianEducationalServices/?fref=ts" target="_blank"><img src="images/ies/fb.png" alt="facebook" class="mediarev"> </a> <span class="rat_text">4.9</span> <span class="_pxg _Jxg" aria-label="Rated 4.4 out of 5,"></span> <a href="https://www.facebook.com/IndianEducationalServices/?fref=ts" target="_blank"><span class="rat_text1">(22 Reviews)</span></a>
+                        </div>
+                        <div class="justdial">
+                            <a href="http://www.justdial.com/Bangalore/Indian-Educational-Services-%3Cnear%3E-Richmond-Road/080PXX80-XX80-121105122841-G4G2_BZDET" target="_blank"><img src="images/ies/jd.jpg" alt="justdial" class="mediarev1"> </a> <span class="rat_text_jd">4.2</span> <span class="_pxg _Jxg jd" aria-label="Rated 4.4 out of 5,"></span> <a href="http://www.justdial.com/Bangalore/Indian-Educational-Services-%3Cnear%3E-Richmond-Road/080PXX80-XX80-121105122841-G4G2_BZDET" target="_blank"><span class="rat_text1">(120 Reviews)</span></a>
+                        </div>
+                        <div class="goog">
+                            <a href="https://www.google.co.in/search?q=indianeducationalservices&amp;oq=indianeducationalservices&amp;aqs=chrome..69i57j69i60l2j0j69i60j0.3839j0j9&amp;sourceid=chrome&amp;ie=UTF-8" target="_blank"><img src="images/ies/google.png" alt="google" class="mediarev2"> </a> <span class="rat_text_go">4.3</span> <span class="_pxg _Jxg google" aria-label="Rated 4.3 out of 5,"></span> <a href="https://www.google.co.in/search?q=indianeducationalservices&amp;oq=indianeducationalservices&amp;aqs=chrome..69i57j69i60l2j0j69i60j0.3839j0j9&amp;sourceid=chrome&amp;ie=UTF-8" target="_blank"><span class="rat_text1">(10 Reviews)</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <h3 class="quoteh3">Testimonial</h3>
+                    <div class="quote"> <i class="fa fa-quote-left fa-4x"></i>
+                    </div>
+                    <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+                        <ol class="carousel-indicators">
+                            <li data-target="#fade-quote-carousel" data-slide-to="0"></li>
+                            <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+                            <li data-target="#fade-quote-carousel" data-slide-to="2" class="active"></li>
+                            <li data-target="#fade-quote-carousel" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item">
+                                <div class="profile-circle"> <img src="images/ies/shally.png" alt="shally">
+                                </div>
+                                <blockquote>
+                                    <p>" I want to recommend INDIAN EDUCATIONAL SERVICES because of their Professional Service. IES not only helps for the smooth processing of the application but also acts as the local Guardian to the outside student like me. "</p>
+                                </blockquote>
+                            </div>
+                            <div class="item">
+                                <div class="profile-circle"> <img src="images/ies/aditya.png" alt="aditya">
+                                </div>
+                                <blockquote>
+                                    <p>" Their experienced Counsellors understood my requirement and helped me selecting right Institute in accordance with my priority. "</p>
+                                </blockquote>
+                            </div>
+                            <div class="active item">
+                                <div class="profile-circle"> <img src="images/ies/kritika.png" alt="kritika">
+                                </div>
+                                <blockquote>
+                                    <p>" My research for good University and a Job of my Dream got the perfect shape after getting in touch with IES. They provided me realistic counselling based on my profile. I indeed appreciate the Services and personal attention received. "</p>
+                                </blockquote>
+                            </div>
+                            <div class="item">
+                                <div class="profile-circle"> <img src="images/ies/ganagi.png" alt="ganagi">
+                                </div>
+                                <blockquote>
+                                    <p>" IES has been Instrumental in guiding me with the entrance examination and finally helping me selecting the college of my Dream. "</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="twitter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h3 class="text-center">GALLERY</h3>
+                    <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner gallery-car" role="listbox">
+                            <div class="item active"> <img src="images/ies/gallery/1.jpg" alt="the-hindu">
+                                <div class="carousel-caption gal-car">
+                                    <p>The Hindu
+                                        <br/>October 2011</p>
+                                </div>
+                            </div>
+                            <div class="item"> <img src="images/ies/gallery/Untitled-17.jpg" alt="thisweekbangalore">
+                                <div class="carousel-caption">
+                                    <p>ThisWeekBangalore.com
+                                        <br/>18th March 2014</p>
+                                </div>
+                            </div>
+                            <div class="item"> <img src="images/ies/gallery/16.jpg" alt="higher-education-review">
+                                <div class="carousel-caption">
+                                    <p>Higher Education Review
+                                        <br/>August 2014</p>
+                                </div>
+                            </div>
+                            <div class="item"> <img src="images/ies/gallery/4.jpg" alt="franchising-world">
+                                <div class="carousel-caption">
+                                    <p style="color: #fff;">The Franchising World
+                                        <br/>Febrary 2014</p>
+                                </div>
+                            </div>
+                            <div class="item"> <img src="images/ies/gallery/7.jpg" alt="dainik-jagran">
+                                <div class="carousel-caption">
+                                    <p>Dainik Jagran
+                                        <br/>10th May 2014</p>
+                                </div>
+                            </div>
+                            
+                            <div class="item"> <img src="images/ies/gallery/15.jpg" alt="kantipur-nepal">
+                                <div class="carousel-caption">
+                                    <p>Kantipur, Nepal
+                                        <br/>15th August 2012</p>
+                                </div>
+                            </div>
+                            <div class="item"> <img src="images/ies/gallery/13.jpg" alt="dainik-jagran">
+                                <div class="carousel-caption">
+                                    <p>Dainik Jagran
+                                        <br/>2105</p>
+                                </div>
+                            </div>
+                            <div class="item"> <img src="images/ies/gallery/11.jpg" alt="telegraph">
+                                <div class="carousel-caption">
+                                    <p>The Telegraph
+                                        <br/>24th May 2014</p>
+                                </div>
+                            </div>
+                            
+                            <div class="item"> <img src="images/ies/gallery/Janpath.jpg" alt="janpath-samachar">
+                                <div class="carousel-caption">
+                                    <p>Janpath Samachar
+                                        <br/>6th April 2014</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="left carousel-control carousel-edit" href="#myCarousel1" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
+                        <a class="right carousel-control carousel-edit" href="#myCarousel1" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 about" style="text-align:justify;    letter-spacing: 0.15px;">
+                    <h3>ABOUT US</h3> <span class="more">Our head office is located in Bangalore and our branch offices are spread across various parts of India and Nepal. The major markets penetrated by IES include North Eastern India, Uttar Pradesh, Bihar, Rajasthan and Nepal. We currently have our branches operational in Kota, Kathmandu, Lucknow, Mumbai, Muzaffarpur, Narayangadh, Pokhra, Patna, Siliguri and Shillong.<br/><br/></span>
+                </div>
+                <div class="col-xs-12 about" style="text-align:justify;    margin-top: 10px;    letter-spacing: 0.15px;">
+                    <div>
+                        <span id="text" style="font-size: 19px;">For our innovative and dedicated services to student community in large, we were awarded with Brand Academy’s <strong>“Karnataka Service Excellence Award” </strong>and <strong>“ Education Excellence Award”</strong> as <strong>Best Education Consultant</strong> in Bangalore for 2011 and 2013 respectively.<br/><br/><strong>Why Education Consultant?</strong> <br/><br/> We are an ISO 9001-2008 Certified Education Consultancy in Bangalore &amp; best Admission consultants in India. We are most experienced when it comes to any other admission consultants in bangalore for admission in best schools of bangalore, top colleges of bangalore, most preferred institutes in Bangalore, best universities in bangalore or even best universities in India.<br><br/>When it comes to reliable and dedicated services, you will experience IES as Top Education consultant in India among all other Educational Consultants in Delhi, education consultants in Bangalore, Education consultancy in pune, educational consultant in kolkata, education consultants in hyedrabad or any other educational consulting company for admission in India.
+                        </span>
+                    </div>
+                <div class="btn-container">
+                    <button id="toggle">Read More</button>
+                </div>                    
+            </div>
+                    
+            </div>
+        </div>
+    </section>
+    <section id="sponsor">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>PARTNER INSTITUTES</h2>
+                    <ul id="flexiselDemo3">
+                        <li><img src="images/ies/clients2/alliance.jpg" alt="Alliance University">
+                        </li>
+                        <li><img src="images/ies/clients2/gujaratiuni.jpg" alt="gujarati-university" />
+                        </li>
+                        <li><img src="images/ies/clients2/iiswbm.jpg" alt="iiswbm" />
+                        </li>
+                        <li><img src="images/ies/clients2/image002.jpg" alt="ABBS" />
+                        </li>
+                        
+                        <li><img src="images/ies/clients2/image023.jpg" alt="bml-munjal-uni" />
+                        </li>
+                        <li><img src="images/ies/clients2/image029.jpg" alt="cmr" />
+                        </li>
+                        <li><img src="images/ies/clients2/image040.jpg" alt="ecole-hoteliere" />
+                        </li>
+                        <li><img src="images/ies/clients2/image060.jpg" alt="ifim" />
+                        </li>
+                        <li><img src="images/ies/clients2/image061.jpg" alt="isbf" />
+                        </li>
+                        <li><img src="images/ies/clients2/image088.jpg" alt="presidency" />
+                        </li>
+                        
+                        <li><img src="images/ies/clients2/kluni.jpg" alt="kluniversity" />
+                        </li>
+                        <li><img src="images/ies/clients2/mahaveer.jpg" alt="tmu" />
+                        </li>
+                        <li><img src="images/ies/clients2/patil.jpg" alt="dypatilgroup" />
+                        </li>
+                        <li><img src="images/ies/clients2/thakur.jpg" alt="thakur-trust" />
+                        </li>
+                        <li><img src="images/ies/clients2/poornima.jpg" alt="poornima-university" style="margin-top:40px;">
+                        </li>
+                        <li><img src="images/ies/clients2/sharda.jpg" alt="sharda-university" style="margin-top:40px;">
+                        </li>
+                        <li><img src="images/ies/clients2/techno.jpg" alt="techno-india" style="margin-top:40px;">
+                        </li>
+                        
+                        <li><img src="images/ies/clients2/image091.jpg" alt="pesit" style="margin-top:40px;">
+                        </li>
+                        <li><img src="images/ies/clients2/jain.jpg" alt="jain-university" style="margin-top:40px;">
+                        </li>
+                        <li><img src="images/ies/clients2/image007.jpg" alt="acharaya" style="margin-top:40px;">
+                        </li>
+                        <li><img src="images/ies/clients2/image013.jpg" alt="baba-farid" style="margin-top:40px;">
+                        </li>
+                        <li><img src="images/ies/clients2/image015.jpg" alt="amc" style="margin-top:40px;">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+                <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span> </button>
+                        <h4 class="modal-title">Login</h4>
+                        <div class="" id="thanking_lgn"></div>
+                        <div class="" id="lgn_errr_lgn"></div>
+                    </div>
+                    <div class="modal-body">
+                        <form method="post" role="form">
+                            <div class="form-group">
+                                <label>User Name</label>
+                                <input type="text" name="uname1" id="uname1" class="form-control" placeholder="Enter User Name">
+                                <div class="error_msg" id="error_uname"></div>
+                            </div>
+                            <div class="form-group">
+                                <label>Password</label>
+                                <input type="password" name="upass1" id="upass1" class="form-control" placeholder="Enter password">
+                                <div class="error_msg" id="error_upass"></div>
+                            </div>
+                            <button type="button" onClick="return login_validation()" class="btn btn-primary">Log in</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer"> <a href="forget-password.html"> Forgot &nbsp;your&nbsp; password&nbsp; ?&nbsp; or&nbsp; Forgot&nbsp; your&nbsp; username&nbsp; ? </a>
+                    </div>
+                                    </div>
+            </div>
+        </div>
+                <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+                    <ul class="ulsup">
+                        <li style="font-size:22px;">SUPPORTS</li>
+                        <li><a href="#" data-toggle="modal" data-target="#myModal2">Login</a>
+                        </li>
+                        <li><a href="register.html">Register</a>
+                        </li>
+                        <li><a href="career.html">Career</a>
+                        </li>
+                        <li><a href="shop.html">Shop</a>
+                        </li>
+                        <li><a href="download.html">Download</a>
+                        </li>
+                        <li><a href="feedback.html">Feedback</a>
+                        </li>
+                        <li><a href="our-media.html">Media</a>
+                        </li>
+                        <li><a href="http://cloud.kramah.com/apex/f?p=108:LOGIN" target="_blank">ERP Login</a>
+                        </li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a>
+                        </li>
+                        <li><a href="terms-condition.html">Terms & Conditions</a>
+                        </li>
+                        <li><a href="sitemap.html">Sitemap</a>
+                        </li>
+                        <li><a href="faq.html">FAQ</a>
+                        </li>
+                        <li><a href="blog/index.html" target="_blank">Blog</a>
+                        </li> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="container-fluid dash3">
+            <div class="row">
+                <div class="col-xs-12 mid">
+                    <h1 class="mrgn-top-zero blu_clr">Education Consultants in Bangalore</h1> <span class="edumore"><p style="letter-spacing: 0.5px;word-spacing: 1px;text-align:justify">Education Consultant / Education Consultancy - Why Do We Need Them? In this world of competition, getting admission in renowned colleges is becoming difficult because of the number of applicants. Moreover, there are certain sectors where the queue is long even though we have a wide range of courses. Now the question arises, are the students taking right career decision, depending on their potential and interest? Unfortunately most of the students make wrong choice, under pressure and then face difficulty in managing and here arise the importance of an education consultant.</p>
+                    
+                        <div>
+                            <span id="text_1" style="letter-spacing: 0.5px;word-spacing: 1px;text-align:justify"><p>You will find many <strong>education consultants in Bangalore</strong> and the experts help students in taking their career decision. Great career not just build confidence in students but it also helps them get good job in companies looking for specialists. The counsellors working under the consultancy sit and talk with the students, understand their personality and interest and then based on their aptitude, help them choose the right subject which they can enjoy and also build their future.</p><p>There are many education consultancy in Bangalore but make sure you select the right one. The experts working under the consultancy must be knowledgeable.  After suggesting them the option, they keep an eye on the student and figure out the change to understand if the tips are effective. They also try to engage them in a variety of relevant activity so that study is fun and the student enjoys it. An expert conduct periodical meeting with the student and the school so that there is a rhythm and pressure is not built on the child.</p>
+                            </span>
+                        </div>
+                        <div class="btn-container_1">
+                            <button id="toggle_1">Read More</button>
+                        </div>
+                        
+
+                    
+                    
+                    <h2 class="mrgn-top-zero blu_clr">Education Consultancy in Bangalore</h2><p style="letter-spacing: 0.5px;word-spacing: 1px;text-align:justify">To do all these expert of the <strong>education consultancy in Bangalore</strong> must be qualified. He/she must have adequate knowledge and hold degree in management. He must have good analytical skills. Next you must be thinking what will be the cost of hiring an expert from consultancy. The fee charged by the experts depends on a number of factors which includes the time spent by them with the student and also the geographical location of the centre. The consultancies have different payment options for the convenience of their students and their parents. You can collect all the information and select the one that suites you. The field of education consultancy has developed impressively in the previous years. People who think consulting an education consultancy in Bangalore ought to precisely evaluate the capabilities and experience of individual experts. We comprehend the difficulties confronted by those yearning to study in India. Remembering the needs of such understudies, we as an education consultant in Bangalore have outlined our techniques in a way that each and every undertaking will be hassle free.</p></span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid">
+            <div class="row footcopy">
+                <div class="col-md-7 footcopy7"> Copyright &copy; 2017 IES - Education Consultancy in Bangalore | Education Consultant | All Rights Reserved.</div>
+                <div class="col-md-5 text-left"> Web Development Company : &emsp;<a href="index.html">IES Digital</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section>
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <form class="well form-horizontal" action="http://www.iesonline.co.in/assets/includes/contact-mail.php" method="post" id="contact-form" onSubmit=window.location='index.html'>
+                            <fieldset>
+                                <legend>Contact Us Today!</legend>
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label">Name</label>
+                                    <div class="col-md-6 inputGroupContainer">
+                                        <div class="input-group"> <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                            <input name="name" id="name" placeholder="Name" class="form-control" type="text" required/>
+                                            <div class="error_msg" id="error_name"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label">E-Mail</label>
+                                    <div class="col-md-6 inputGroupContainer">
+                                        <div class="input-group"> <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                            <input name="email" id="email" placeholder="E-Mail Address" class="form-control" type="email" required/>
+                                            <div class="error_msg" id="error_name"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label">Phone #</label>
+                                    <div class="col-md-6 inputGroupContainer">
+                                        <div class="input-group"> <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+                                            <input name="phone" id="phone" placeholder="(+91) 98765-12345" class="form-control" type="text" required/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-4 control-label">Message</label>
+                                    <div class="col-md-6 inputGroupContainer">
+                                        <div class="input-group"> <span class="input-group-addon required"><i class="glyphicon glyphicon-pencil"></i></span>
+                                            <textarea class="form-control" name="message" id="message" placeholder="message"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-4 control-label"></div>
+                                    <div class="col-md-6">
+                                        <button type="submit" class="btn btn-warning" name="signup" onClick="submit_validation(this)">Submit <span class="glyphicon glyphicon-send"></span> </button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/bootstrapValidator.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="../ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="../cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+    </script>
+    <script src="js/jquery.newstape.js"></script>
+    <script src="js/jquery.flexisel.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        $(function() {
+            $('.newstape').newstape();
+        });
+    </script>
+    <script>
+        $('#top1').on('click', function(event) {
+            var target = $(this.getAttribute('href'));
+            if (target.length) {
+                event.preventDefault();
+                $('html, body').stop().animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+            }
+        });
+    </script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $("#flexiselDemo3").flexisel({
+                visibleItems: 6,
+                animationSpeed: 1000,
+                autoPlay: true,
+                autoPlaySpeed: 700,
+                pauseOnHover: true,
+                enableResponsiveBreakpoints: true,
+                responsiveBreakpoints: {
+                    portrait: {
+                        changePoint: 480,
+                        visibleItems: 1
+                    },
+                    landscape: {
+                        changePoint: 640,
+                        visibleItems: 2
+                    },
+                    tablet: {
+                        changePoint: 768,
+                        visibleItems: 3
+                    }
+                }
+            });
+        });
+    </script>
+    <script src="js/jquery.contact-buttons.js"></script>
+    <script src="js/demo.js"></script>
+    <script>
+        $(document).ready(function() {
+            var showChar = 800;
+            var ellipsestext = "...";
+            var moretext = "Show more>";
+            var lesstext = "Show less";
+            $('.more').each(function() {
+                var content = $(this).html();
+                if (content.length > showChar) {
+                    var c = content.substr(0, showChar);
+                    var h = content.substr(showChar, content.length - showChar);
+                    var html = c + '<span class="moreellipses">' + ellipsestext + '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
+                    $(this).html(html);
+                }
+            });
+            $(".morelink").click(function() {
+                if ($(this).hasClass("less")) {
+                    $(this).removeClass("less");
+                    $(this).html(moretext);
+                } else {
+                    $(this).addClass("less");
+                    $(this).html(lesstext);
+                }
+                $(this).parent().prev().toggle();
+                $(this).prev().toggle();
+                return false;
+            });
+        });
+    </script>
+    <script>
+        $(document).on('click', '.panel-heading span.icon_minim', function(e) {
+            var $this = $(this);
+            if (!$this.hasClass('panel-collapse')) {
+                $this.parents('.panel').find('.panel-body').slideUp();
+                $this.addClass('panel-collapse');
+                $this.removeClass('glyphicon-minus').addClass('glyphicon-plus');
+            } else {
+                $this.parents('.panel').find('.panel-body').slideDown();
+                $this.removeClass('panel-collapse');
+                $this.removeClass('glyphicon-plus').addClass('glyphicon-minus');
+            }
+        });
+    </script>
+    <script>
+        $(window).on("scroll", function() {
+                    if ($(window).scrollTop() > 400) {
+                        $(".navedit").addClass("active");
+                    } else {
+    </script>
+    <script>
+        $(document).on('mouseover', '.whatsapp', function() {
+            $(this).html('<span>+91-9743277777</span>');
+            $(this).css({
+                'text-decoration': 'none',
+                'width': '200px'
+            });
+        });
+        $(document).on('mouseout', '.whatsapp', function() {
+            $(this).html('<i class="fa fa-whatsapp " aria-hidden="true"></i>');
+            $('.contact-button-link.whatsapp').css('width', 'auto')
+        });
+    </script>
+    <script>
+        $(window).on("scroll", function() {
+            if ($(window).scrollTop() > 400) {
+                $(".navedit").addClass("active");
+            } else {
+                $(".navedit").removeClass("active");
+            }
+        });
+    </script>
+    
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/59fbee50198bd56b8c03913a/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+
+
+
+<script language="javascript" type="text/javascript">
+window.onload = function(){ document.getElementById("loading-page").style.display = "none" }  
+</script>
+
+        </div></section>
+</body>
+
+
+</html>

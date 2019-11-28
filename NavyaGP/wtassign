@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap 4, from LayoutIt!</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<h3>
+				h3. Cultural Managemaent System
+				<img src="https://i2.wp.com/tacticware.com/wp-content/uploads/2018/08/multuralmanagementsystem.png?resize=600%2C400&amp;ssl=1" alt="Image result for images for cultural management system">
+				
+				
+				
+				
+				
+			</h3>
+			<h2>
+				Heading
+			</h2>
+			
+			
+			<div>
+				The historical perspectives on cross-cultural studies outlined in the following HISTORICAL pages are based on Negandhi [1975] and England, Negandhi, and Wilpert [1979]. PERSPECTIVE The emerging field of cross-cultural studies on organizational functioning is largely a result of partial integration between the cross-cultural comparative management field and organization theory areas
+			</div>
+			
+			<div>
+				<img src="https://image.slidesharecdn.com/crossculturalimplicationsonmanagementcontrolsystems-paulinosilva-140616121453-phpapp02/95/cross-cultural-implications-on-management-control-systems-by-paulino-silva-1-638.jpg?cb=1404365938" alt="Image result for images for  cross cultural management system">
+			</div>
+			
+			
+			
+			
+			
+			<p>
+				<a class="btn" href="#"></a>
+			</p>
+			<dl>
+				<dt>
+					Description lists
+				</dt>
+				<dd>
+					A description list is perfect for defining terms.Although some cross-cultural organization studies were conducted prior to the 1950s, the large-scale projects on industrialization of developing countries at 4 major universities (MIT,Chicago, California, and Princeton) during the 1950s provided a major impetus to the comparative management area. Scholars from various social disciplines-psychology, sociology, social and cultural anthropology, economics, and political sciences-contributed toward these efforts. The differing backgrounds of these scholars are reflected in their conceptualizations and methodologies as well as in their specific findings [Harbison and Myers 1959]. The conceptual and methodological approaches used by the comparative management theorists can be divided roughly into the following groups: the economic development orientation; the environmental approach; and the behavioral approach. The concern for economic development can be traced to the initial large-scale proj- Economic ects undertaken in the 1950s at the 4 universities noted above. The basic premise Development was simple: managerial input plays an important role in achieving rapid industrial Orientation and economic development in underdeveloped countries. The approach was essentially a macro or aggregate approach, and, accordingly, it concentrated on the examination of basic trends of managerial development rather than analysis of specific management practi_es at the micro or firm level.
+				</dd>
+				
+				<dd>
+					<img src="https://images.slideplayer.com/39/10951734/slides/slide_6.jpg" alt="Image result for images for  cross cultural management system">
+				</dd>
+				<dd>
+					<img src="https://www.fh-ooe.at/fileadmin/_processed_/3/2/csm_fhooe-interkulturalitaet-simm_db104335e9.jpg" alt="Image result for images for  cross cultural management system">
+				</dd>
+			</dl>
+			<form role="form">
+				<div class="form-group">
+					 
+					<label for="exampleInputEmail1">
+						Email address
+					</label>
+					<input type="email" class="form-control" id="exampleInputEmail1">
+				</div>
+				<div class="form-group">
+					 
+					<label for="exampleInputPassword1">
+						Password
+					</label>
+					<input type="password" class="form-control" id="exampleInputPassword1">
+				</div>
+				<div class="form-group">
+					 
+					<label for="exampleInputFile">
+						File input
+					</label>
+					<input type="file" class="form-control-file" id="exampleInputFile">
+					<p class="help-block">
+						Example block-level help text here.
+					</p>
+				</div>
+				<div class="checkbox">
+					 
+					<label>
+						<input type="checkbox"> Check me out
+					</label>
+				</div> 
+				<button type="submit" class="btn btn-primary">
+					Submit
+				</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

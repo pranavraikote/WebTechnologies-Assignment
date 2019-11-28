@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap 4, from LayoutIt!</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="row">
+				<div class="col-md-8">
+					<br>
+					<h1 class="text-info text-center" align="center">
+						 LIBRARY WEBSITE
+					</h1>
+				</div>
+			</div>
+				<div class="col-md-4">
+					<img alt="Bootstrap Image Preview" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjs3pYm3kRS_Ahkhc2zKff7tsSeEukQjCJoFR-TXgfh1Sx6COA&s">
+				</div>
+				
+			<div class="row">
+				<div class="col-md-8">
+					<h2>
+						Register:
+					</h2>
+					<form role="form">
+						<div class="form-group">
+							 
+							<label for="exampleInputEmail1">
+								Email address
+							</label>
+							<input type="email" class="form-control" id="exampleInputEmail1">
+						</div>
+						<br>
+						<div class="form-group">
+							 
+							<label for="exampleInputPassword1">
+								Password
+							</label>
+							<input type="password" class="form-control" id="exampleInputPassword1">
+						</div>
+						<br>
+						<div class="checkbox">
+							 
+							<label>
+								<input type="checkbox"> Check me out
+							</label>
+						</div>
+						<br><br> 
+						<button type="submit" class="btn btn-primary">
+							Submit
+						</button>
+					</form>
+				</div>
+				<div class="col-md-4" >
+					<h3 >
+						Books available:
+					</h3>
+					<div>
+						CSE: Introduction to Algorithms by Thomas.H.Cormen,</div>
+<div>      Computer and Machine Vision by E.R.David,</div>
+<div>      Principles of Soft Computing by Shivanadam.
+	</div>				
+					<div>
+						<br>
+						<div>
+							Novels: The Alchemist by Paulo Choelo,</div>
+						<div>	 Fault in our stars by John Green
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

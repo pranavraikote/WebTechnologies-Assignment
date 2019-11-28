@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <br> 
+   <title>AUTOMATIVE INDUSTRY
+   </title>
+
+   
+    <meta name="description" content="Source code generated using layoutit.com">
+   
+
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body background="img/4.jpg";>
+
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-8">
+			<h1>
+				<strong>
+					<i>AUTOMATIVE INDUSTRY</i>
+				</strong>
+			</h1>
+			<p>
+				<br>
+				<br>The automotive industry comprises a wide range of companies and organizations involved in the design, development, manufacturing, marketing, and selling of motor vehicles.It is one of the world's largest economic sectors by revenue. The automotive industry does not include industries dedicated to the maintenance of automobiles following delivery to the end-user,such as automobile repair shops and motor fuel filling stations.
+			</p>
+				</div>
+		<div class="col-md-4">
+		<br>
+		<br>
+		<br>
+		<br>	
+		<img alt="Bootstrap Image Preview" src="img/auto.jpg">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<h4>
+				<strong>
+					<u>
+						<i>HISTORY</i>
+					</u>
+				</strong>
+			</h4>
+			<p>
+		      The automotive industry began in the 1860s with hundreds of manufacturers that pioneered the horseless carriage. For many decades, the United States led the world in total automobile production. In 1929, before the Great Depression, the world had 32,028,500 automobiles in use, and the U.S. automobile industry produced over 90% of them. At that time the U.S. had one car per 4.87 persons.[4] After World War II, the U.S. produced about 75 percent of world's auto production. In 1980, the U.S. was overtaken by Japan and then became world's leader again in 1994. In 2006, Japan narrowly passed the U.S. in production and held this rank until 2009, when China took the top spot with 13.8 million units. With 19.3 million units manufactured in 2012, China almost doubled the U.S. production, with 10.3 million units, while Japan was in third place with 9.9 million units. From 1970 (140 models) over 1998 (260 models) to 2012 (684 models), the number of automobile models in the U.S. has grown exponentially.
+			</p>
+		</div>
+		<div class="row">
+		<div class="col-md-8">
+			<h1>
+				<strong>
+					<i>AUTOMATIVE INDUSTRY</i>
+				</strong>
+			</h1>
+			<p>
+				<br>
+				<br>In 1980, the U.S. was overtaken by Japan and then became world's leader again in 1994. In 2006, Japan narrowly passed the U.S. in production and held this rank until 2009, when China took the top spot with 13.8 million units. With 19.3 million units manufactured in 2012, China almost doubled the U.S. production, with 10.3 million units, while Japan was in third place with 9.9 million units. From 1970 (140 models) over 1998 (260 models) to 2012 (684 models), the number of automobile models in the U.S. has grown exponentially.
+			</p>
+				</div>
+		<div class="col-md-4">
+		<br>
+		<br>
+		<br>
+		<br>	
+		<img alt="Bootstrap Image Preview" src="img/auto.jpg">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-8">
+			<h1>
+				<strong>
+					<i>AUTOMATIVE INDUSTRY</i>
+				</strong>
+			</h1>
+			<p>
+				<br>
+				<br>
+				The automotive industry comprises a wide range of companies and organizations involved in the design, development, manufacturing, marketing, and selling of motor vehicles.It is one of the world's largest economic sectors by revenue. The automotive industry does not include industries dedicated to the maintenance of automobiles following delivery to the end-user,such as automobile repair shops and motor fuel filling stations.
+			</p>
+				</div>
+		<div class="col-md-4">
+		<br>
+		<br>
+		<br>
+		<br>	
+		<img alt="Bootstrap Image Preview" src="img/auto.jpg">
+		</div>
+	</div>
+		<div class="col-md-4">
+		<br><br>
+		<br><br>
+			<img alt="Bootstrap Image Preview" src="img/auto1.jpg">
+		</div>
+		<div class="col-md-6">
+			<blockquote class="blockquote text-right">
+				<p class="mb-0">
+					<small>
+						<i>Safety is a state that implies to be protected from any risk, danger, damage or cause of injury. In the automotive industry, safety means that users, operators or manufacturers do not face any risk or danger coming from the motor vehicle or its spare parts. </i></small>
+				</p>
+				<footer class="blockquote-footer">
+					Dr. K. K. Doty
+				</footer>
+			</blockquote>
+		</div>
+	</div>
+	<div class="container" style="color:white" ;>
+    <form action="login.php" method="post">
+    <label for="uname">
+    	<b>
+    	Username
+    </b>
+</label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw">
+    	<b>Password</b>
+    </label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <input type="submit" name="submit" value="Ok"/>
+  </form>
+     </div>
+	<div class="row">
+		<div class="col-md-12">
+			 
+			<address>
+				 <strong>
+				 Das Auto, Inc.
+				</strong>
+				<br> 795 Folsom Ave, Suite 600<br> San Francisco, CA 94107<br> <abbr title="Phone">P:</abbr> (123) 456-7890
+			</address>
+		</div>
+	</div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

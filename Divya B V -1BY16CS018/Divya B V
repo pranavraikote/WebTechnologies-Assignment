@@ -1,0 +1,166 @@
+<!DOCTYPE html> 
+<html> 
+  
+<head> 
+    <title>Album by Stephen max - NATURALEZA</title> 
+      
+    <link rel="stylesheet" href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  
+    <style> 
+      
+        /* Head banner team */ 
+        .banner { 
+            text-align: center; 
+            width: ; 
+        } 
+          
+        h1 { 
+            color: green; 
+        } 
+      
+        /* styling sidebar */ 
+        .sidehoverbar a { 
+            background-color: grey; 
+            position: absolute; 
+            font-size: 22px; 
+            text-decoration: none; 
+            Color: white; 
+            padding: 10px; 
+            border-radius: 0px 25px 25px 0px; 
+            left: -190px; 
+            transition: 0.5s; 
+            opacity: 0.5; 
+        } 
+      
+        /* Hover effect on sidebar */ 
+        .sidehoverbar a:hover { 
+            left: 0px; 
+            opacity: 1; 
+            background-color: #4CAF50; 
+        } 
+      
+        /* float icons*/ 
+        .sidehoverbar i { 
+            float: right; 
+        } 
+      
+        /* definig position of each nav bar */ 
+        .About_the_Album { 
+            top: 50px; 
+            width: 210px; 
+            height: 30px; 
+        } 
+          
+        .About_the_Artist { 
+            top: 110px; 
+            width: 210px; 
+            height: 30px; 
+        } 
+          
+        .Comments { 
+            top: 170px; 
+            width: 210px; 
+            height: 30px; 
+        } 
+          
+        .Other_Art_works { 
+            top: 230px; 
+            width: 210px; 
+            height: 30px; 
+        } 
+          
+        .View_other_Artists { 
+            top: 290px; 
+            width: 210px; 
+            height: 30px; 
+        } 
+      
+        /* content margin */ 
+        .hoverable-topic { 
+            margin-left: 55px; 
+        } 
+        body
+        {
+            background-image:url(20180824_130239.jpg);
+        }
+    </style> 
+</head> 
+  
+<body> 
+  
+    <!-- Geeksforgeeks and Slogan -->
+    <div class="banner"> 
+        <h1>NATURALEZA</h1> 
+          
+        <p> 
+           <h3> "Capturing the splendours of nature right down to its minutiae elements with extreme precision"</h3>
+        </p> 
+    </div> 
+  
+    <!-- Body content topic -->
+    <div class="hoverable-topic"> 
+        <h3>About the Artist</h3> 
+          
+        <p> 
+            Bali-based photographer Stephan Max Reinhold's work focuses on photography of water droplets, aptly called Liquid Art. With extreme precision, Reinhold beautifully encapsulates science and art on a singular frame.
+            Liquid Art was created by the famous photographer Stephan Max, inspired by his love for the art of photography, and a lifelong fascination with the forces of nature. Max captures images of water drops, and turns these minute moments into excellent fine art photography. Unique, precise and perfect, each photograph of the wonderful splendours of nature makes an impactful statement on a wall. The water drop images come alive with vibrant colours and incredible effects. Depending on the surface, the lighting, the background and the perspective, the results are dramatically different, giving rise to unusual, artistic photographs.
+        </p> 
+    </div> 
+    <div class="hoverable-topic"> 
+
+        <h3>Few clips of the Album: </h3>
+        <h4>Calming</h4>         
+        <p>This calming photograph, with its rich blue colour, portrays a certain intricate delicacy that is seen in the fine lines of colliding water droplets and the thin column formed. Combined with the reflection at the bottom, it creates drama and theatre.
+        </p>
+        <img src ="1.webp"/> 
+    </div> 
+    <div class="hoverable-topic"> 
+        <h4>Sagmeister</h4>         
+        <p>This vibrant photograph titled Sagmeister has captured a fleeting moment, when the water, taken over by surface tension, has split into three droplets, each a unique entity on its own. With the reflection of the rich yellow, blue and red flowers in the background, the photograph attains a brilliant dazzling feel.
+        </p> 
+        <img src ="2.webp"/> 
+    </div> 
+    <div class="hoverable-topic"> 
+        <h4>Clean and Adjust</h4>         
+        <p>Clean and Adjust, with its psychedelic look, is a photograph involving soap film and light, combining together to create an amazing effect. With its dark background and luminous pattern, the photograph is a striking work of art.
+        </p> 
+        <img src ="3.webp"/> 
+    </div> 
+    <div class="hoverable-topic">
+        <h4>Burnt Crimson</h4>         
+        <p>In Burnt Crimson, Max captures the collision of two water droplets. The impact causes one of the droplets to flatten and cascade over the column at an angle, creating an exquisitely striking image. Combining strong and contrasting colours, this photograph is truly outstanding.
+        </p> 
+        <img src ="4.webp"/> 
+    </div> 
+    
+    <!-- Side navigation Bar -->
+    <div class="sidehoverbar"> 
+        <a href="#" class="About_the_Album"> 
+            About the Album
+            <i class="fa fa-edit"></i> 
+        </a> 
+          
+        <a href="#" class="About_the_Artist"> 
+            About the Artist
+            <i class="fa fa-file-o"></i> 
+        </a> 
+          
+        <a href="#" class="Comments"> 
+            Comments
+            <i class="fa fa-commenting"></i> 
+        </a> 
+          
+        <a href="#" class="Other_Art_works"> 
+            Other Art works  
+            <i class="fa fa-plus"></i> 
+        </a> 
+          
+        <a href="#" class="View_other_Artists"> 
+            View other Artists
+            <i class="fa fa-laptop"></i> 
+        </a> 
+    </div> 
+</body> 
+  
+</html> 

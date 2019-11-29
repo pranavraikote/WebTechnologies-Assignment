@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap 4, from LayoutIt!</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+   <style type="text/css">
+   	.col-md-4 {
+   		background-color: paleturquoise;
+   		border-style: solid;
+   		border-color: white;
+   	}
+   	
+   	
+   	
+   </style>
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="row">
+				<div class="col-md-1">
+				</div>
+				<div class="col-md-2">
+					<br>
+					<img alt="Bootstrap Image Preview" src="./dri.jpg" height=250 width=250	 class="rounded-circle">
+				</div>
+				<div class="col-md-1">
+				</div>
+				<div class="col-md-8">
+					<br>
+					<br><br><br>
+					<h3 class="text-center">
+						Hey, I'm Drishti Ramesh Megalmani
+					</h3>
+					<center>
+						<p> A Computer Science Engineer from Bangalore. A travel aficionado, a dancer and a believer that life is either a daring adventure or nothing at all! </p></center>
+						
+					<div class="u_fNK">
+					</div>
+					<div class="u_fNK">
+						<div>
+							<div>
+								<div>
+									<div class="_3-ITD">
+										<div class="_5WizN aN9_b _1QzSN">
+											<div class="_3YmQx">
+												<div class="_3QdKe">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+
+			</div>
+			<p>
+			<br>
+			<br>
+		</p>
+			<div class="row">
+				<div class="col-md-12">
+
+					<h3>
+						Academics:
+					</h3>
+					</div>
+			<p>
+			<br>
+			
+		</p>	<div class="col-md-1">
+		</div>
+		<div class="col-md-10">
+					<table class="table table-bordered" >
+						<thead>
+							<tr>
+								<th>
+									#
+								</th>
+								<th>
+									Course
+								</th>
+								<th>
+									Institute
+								</th>
+								<th>
+									Percentage/Marks
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									1
+								</td>
+								<td>
+									BE - CSE
+								</td>
+								<td>
+									BMS Institute of Technology &amp; Management
+								</td>
+								<td>
+									9.06
+								</td>
+							</tr>
+							<tr class="table-active">
+								<td>
+									1
+								</td>
+								<td>
+									12th
+								</td>
+								<td>
+									Sindhi PU College
+								</td>
+								<td>
+									95.66%
+								</td>
+							</tr>
+							<tr class="table-success">
+								<td>
+									2
+								</td>
+								<td>
+									10th
+								</td>
+								<td>
+									Ryan International School
+								</td>
+								<td>
+									95%
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="col-md-1">
+				</div>
+				</div>
+			</div>
+			<div class="row">
+				
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="col-md-2">
+						</div>
+						<div class="col-md-10">
+					<h3>   Internships:
+					</h3>
+				</div>
+					<div class="col-md-4">
+					</div>
+					<div class="col-md-8">
+					<b>
+					<ul>
+						<li> Indian Institute of Science, Bangalore — Deep Learning Intern (May 2019 - July 2019)
+					
+				</b><br>
+					
+						Worked on the detection and classification of abnormalities in Wireless Capsule <span>Endoscopic images.</span>
+					</li>
+					
+					<b><li>
+					
+						Vijna Labs Pvt Ltd, Bangalore — Image Processing Intern (Aug 2018 - Dec 2018)
+					
+				</b><br>
+					
+						Worked on machine learning, more specifically -image processing. Mostly focused on <span>python scripting, data segmentation and labelling.</span>
+					</li>
+					<b>
+					<li>
+						Venture Catalysts, Bangalore — Intern (Jul 2018 - Feb 2019)
+					
+				</b><br>
+					
+						Analysis, startup evaluation, research on sectors, startup investments and events.
+					</li>
+					<b><li>
+					
+						Plan The Unplanned, Bangalore — Content Writer (Feb 2018 – Present)
+					
+				</b><br>
+					
+						Published travel-inspired blogs for the website and also work as the co-editor of the Plan <span>The Unplanned social media handle.</span>
+					</li>
+					<b><li>
+					
+						Spyry Technology, Bangalore — Student Intern (Oct 2017 - Oct 2017)
+					
+				</b><br>
+					
+						Learnt the basics about ethical hacking, types of footprinting, wifi hacking, dos, scanning, <span>and much more. Also learnt about how to protect systems from these various loopholes</span> <span>and attacks.</span>
+					</li>
+					<b>
+					
+						<li>The Climber, Bangalore — Sales and Marketing Intern (Sept 2017 - Feb 2018)
+					
+				</b><br>
+					
+						Responsible for marketing and sales of one of their products- the Coder’s Pack.
+					</li>
+					</div>
+					
+				</div>
+			</div>
+			<p>
+				<br>
+				<br>
+			</p>
+			<div class="row">
+				<div class="col-md-4">
+					<br>
+					<h3 class="text-center">
+						Projects Done:
+					</h3>
+					<ul>
+						<br>
+						<li class="list-item">
+							<b>VISION</b>— Vigilant Image Sensing Intelligent drONe
+						</li>
+						<li class="list-item">
+							<b>Gesture Controlled Obstacle Avoiding Robot</b>
+						</li>
+						<li class="list-item">
+							<b>AAA</b>-Automated Attendance App(App built with MIT app maker)
+						</li>
+						<li class="list-item">
+							<b>SAHAY</b> — A Helping Hand (Mobile app)
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-4" \ >
+					<br>
+					<h3 class="text-center" >
+						<div>
+							Achievements/Awards:
+						</div>
+					</h3>
+					<ul>
+						<br>
+						
+						<li class="list-item">
+							Finalist of national-level competition -IICDC(5 lakh funding for product development)
+						</li>
+						<li class="list-item">
+							2nd prize at BITES Project Awards
+						</li>
+						<li class="list-item">
+							3rd Prize at Project Competition at national level competition VIVID held at SSN College of Engineering.
+						</li>
+						<li class="list-item">
+							1st rank in 10th board exam at the school level; 1st rank in 12th board exams at the college level; 1st rank in VTU exams at the college level(3rd and 4th sem)
+						</li>
+						<li class="list-item">
+							Scholarship for academic excellence from BMSIT
+						</li>
+						<br>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<br>
+					<h3 class="text-center">
+						<div>
+							Extra-curricular activities:
+						</div>
+					</h3>
+					<ul>
+						<br>
+						<li class="list-item">
+							Worked for an NGO- Youth for Seva( teaching kids)
+						</li>
+						<li class="list-item">
+							Volunteered at Seaside Startup Summit Goa
+						</li>
+						<li class="list-item">
+							Volunteered at Fifth Elephant, Anthill Inside, DataHack Summit(based on ML &amp; data science)
+						</li>
+						<li class="list-item">
+							Special Police Officer for election process of Karnataka
+						</li>
+						<li class="list-item">
+							Secretary for Semaphore a techno-cultural fest of BMSIT
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+
+				
+				<div class="col-md-12">
+					<br>	
+
+						<h4 ><div>&emsp;Contact Me:</div></h4>
+					
+					
+					<p>
+						&emsp;&ensp;Email: drishtiramesh1@gmail.com
+						<br>
+						&emsp;&ensp;Phone Number: +91 8884649555</p></center>
+					</div>	
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

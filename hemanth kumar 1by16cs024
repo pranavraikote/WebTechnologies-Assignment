@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Tangerine&display=swap" rel="stylesheet">
+
+
+	<style >
+		body{
+			background-color:#5CA9F6;
+		}</style>
+</head>
+<body>
+<h1>Life in the wild</h1>
+
+
+
+
+	<p style="font-size:35px; text-align: center;">"Life in the wild" is a website that provides its user with amazing pictures that are taken by world renowned photographers all over the world!!!</p>
+	<p style="font-size:25px;">Browse through the website and see if this website tickles your interest into signing up with us for weekly free photos!!!</p>
+	<br>
+	<p style="font-size:25px;">There are hundreds of categories that you can choose from...</p><br><br>
+		<h3>Move your cursor over the images to give it a Hover Effect</h3><br><br><br>
+
+
+<div class="container">
+	<img src="apple-blur-branch-257840.jpg">
+
+	<img src="fog-foggy-forest-158607.jpg">
+	<img src="art-ball-blur-235615.jpg">
+	<img src="blur-branches-daylight-355296.jpg">
+	<img src="beach-beautiful-bridge-449627.jpg">
+	<img src="clouds-daylight-environment-462146.jpg">
+
+
+	<img src="colorful-colourful-forest-33109.jpg">
+	<img src="4k-wallpaper-close-up-dew-807598.jpg">
+	<img src="arch-bridge-clouds-814499.jpg">
+	<img src="bloom-blooming-blossom-462118.jpg">
+	<img src="clouds-conifer-daylight-371589.jpg">
+	<img src="bloom-blossom-flora-60006.jpg">
+	
+</div>
+
+<br><br><br><p style="text-align: center;font-size:25px; ">If you liked our content and want to subscribe to us you can fill your details below</p>
+
+
+
+
+	<div class="log">		
+	FIRST NAME::<input type ="text" name="firstname"><br>
+	LAST NAME::<input type = "text" name="lastname"><br>
+	EMAIL-ID::<input type="email" name="email" required><br>
+	PASSWORD::<input type="password" min="5" name="password"><br>
+	DATE-OF-BIRTH::<input type="date" name="birthday"><br>
+	GENDER::<br>
+	<input type="radio" name="gender">Male<br>
+	<input type="radio" name ="gender">Female<br>
+	<input type="radio" name="gender">Other<br>
+	PETS::<br>
+	<input type="checkbox" name="dog" value="dog"> Dog<br>
+	<input type="checkbox" name="cat" value="cat"> Cat<br>
+
+	
+	<input type="submit" value ="Register">
+	<input type="reset">
+</div>
+
+<p style="font-size:50px; text-align:center ">Reach us at:</p>
+<div class="reach">
+
+
+	<p style="text-align: center">If you wanna reach out to us:<br> Facebook: Life_In_The_Wild<br>
+	Instagram:life.in.the.wild<br><br>
+
+	Dont forget to give us a feedback at:<br>
+Gmail:Lifeinthewild@gmail.com</p></div>
+</body>
+</html>

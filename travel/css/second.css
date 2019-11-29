@@ -1,0 +1,53 @@
+.place{
+	background-color: #FFD433;
+}
+blockquote { 
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.blockquote{
+	font-size: 40px;
+    font-style: oblique;
+    text-align: center;
+}
+.parah{
+	font-size: 30px;
+	font-style: oblique;
+	color: red;
+}
+.row {
+  box-sizing: border-box;
+  display: block;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.img_description{
+	font-style: oblique;
+	font-size: 20px;
+}
+.next{
+	text-align: center;
+}

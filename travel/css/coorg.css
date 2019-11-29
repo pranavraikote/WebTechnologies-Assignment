@@ -1,0 +1,23 @@
+.place{
+	background-color: #74FF33;
+}
+.corg{
+	height:500px;
+}
+.container {
+  position: relative;
+  font-style: oblique;
+  font-size: 20px;
+}
+
+.text-block {
+  position: absolute;
+  bottom: -150%;
+  right: 100px;
+  left:100px;
+  background-color: white;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+

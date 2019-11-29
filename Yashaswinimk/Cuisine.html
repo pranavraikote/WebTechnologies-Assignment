@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<title>C U I S I N E</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+    header {
+    background-color: black;
+    min-height: 200px;
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+} 
+    body{
+        background-image: url("https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&w=1000&q=80");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    * {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100px;
+    min-width: 10px;
+    min-height: 10px;
+    max-height: 100px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+footer{
+background-color: black;
+    min-height: 250px;
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+</style>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Food</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">More information</a>
+</nav>
+
+<!-- Top menu -->
+    <header>
+<br><br>
+<h2 class="w3-wide w3-center"><center><font color="antiquewhite">Cardon blue</font></center></h2>
+
+<div class="w3-top">
+  <div class="w3-black w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+  </div>
+</div>
+        </header>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="https://serafinamia.com/wp-content/uploads/2018/09/10-Italian-Fun-Facts-The-Food-Fashion-and-Culture-of-Italy.jpg" alt="Sandwich" style="width:100%">
+        <h3><b><font color="white">Italian Cuisine</font></b></h3>
+        <p><b><font color="white">With a culinary history that stretches back centuries, Italian cuisine is one of the world’s favorites. Spumoni ice cream, spaghetti, lasagna and pizza are traditional dishes that are widely available in the United States. Beyond these basic dishes, there are a number of regional favorites like Parmesan cheese and Parma ham. One part of Italy is even known for making a kind of maggot cheese. The cheese is fermented and allowed to sit out so that flies lay eggs. Afterward, it is packed at the perfect time for maggots to develop</font></b></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR__Uw6YN0DN3N9jK9VK_PI8fO0sHjwLdIzD3eF_KWE6V2Tn_MP&s" alt="Steak" style="width:100%">
+        <h3><b>Chinese Cuisine</b></h3>
+        <p><b>China has one of the most diverse mixes of cultures and cuisines in the world. The main eight styles of cooking are: Fujian, Cantonese, Anhui, Zhejiang, Szechuan, Shandong and Hunan. In Chinese traditional medicine and culture, the opposites of yin and yang must always be kept in balance. This same balance extends to food. When cooking, the Chinese try to balance different colors, tastes, textures and smells. This focus has paid off and made Chinese cuisine one of the world’s finest.In a traditional Chinese meal, you can expect to have noodles or rice. Although many American-based Chinese restaurants use fried rice, most China-based Chinese restaurants serve basic steamed rice.</b></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://ca-times.brightspotcdn.com/dims4/default/e77e9f7/2147483647/strip/true/crop/1024x682+0+0/resize/840x559!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Faf%2F50%2F7f81df573a8077319a05bb6bc01b%2Fla-1558567056-ewie79db4m-snap-image" alt="Cherries" style="width:100%">
+        <h3><b>Thai Cuisine</b></h3>
+        <p><b>Over the last decade, Thai food has grown in popularity. Hands down, the most popular dish is pad thai. To truly experience Thai cuisine, you should step away from the basic pad thai and try some of the broths and noodle dishes that make this cuisine so delectable. This cuisine focuses on a lot of herbs and offers a range of sweet, sour, spicy and bitter tastes. It focuses on fresh herbs, so this cuisine always has a vivid flavor</b></p>
+      
+    </div>
+    <div class="w3-quarter">
+      <img src="http://images.ctfassets.net/3s5io6mnxfqz/6ZImCEzx6UuvuKaAiZEDDN/50479ee4a0902deb4eb1bab720ce248a/image1.jpg" alt="Pasta and Wine" style="width:100%">
+        <h3><b>Indian cuisine</b></h3>
+        <p><b>India is one of the most densely populated countries on the planet. With so many people within the nation, Indian cuisine is highly varied. Curries are the traditional fare, but Indian food is not confined for just curry. There are a number of regions that make vegetarian dishes, and ayurvedic medicinal traditions are often used in creating food. Within India, visitors will find a range of sweet, hot and spicy dishes. Even better, the nation is home to millions of street food stands. At these stands, visitors can try out unique treats for a very cheap price.</b></p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="http://www.toloukoumi.com/images/easyblog_articles/19/to-loukoumi-traditional-greek-restaurant-astoria-greek-food-cuisine.jpg" alt="Popsicle" style="width:100%">
+        <h3><b><font color="white">Greek Cuisine</font></b></h3>
+        <p><b><font color="white">Like Italian cuisine, Greek food dates back thousands of years. Many common Greek dishes have unknown origins because they have been around so long. This cuisine has a unique mix of different Mediterranean styles. Back in the day, the Greeks were well-positioned to become a major port for sea trading. Every time sailors returned from traveling, they brought back different dishes and dining styles. In Greece, visitors can expect fresh herbs, olive oil and feta.</font></b></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="http://www.terracerestaurantandlounge.com/wp-content/uploads/2017/02/bigstock-Arabic-Dishes-And-Meze-167170001-e1488315821840.jpg" alt="Salmon" style="width:100%">
+        <h3><b>Lebanese Cuisine</b></h3>
+      <p><b>Due to its location, Lebanon has adopted Arabic and Mediterranean influences. Lebanese food uses a lot of fresh fruit, vegetables and seafood. Other than fish, it does not contain a big focus on meat. When dining at a Lebanese restaurant, you can expect delicious pickles, unique salads, Arabic bread, vegetable dishes and vegetable dips.</b></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://img.jakpost.net/c/2017/02/28/2017_02_28_22453_1488267265._large.jpg" alt="Sandwich" style="width:100%">
+        <h3><b>Japanese Cuisine</b></h3>
+      <p><b>The Hibachi or Teppanyaki grill are some of the most delectable of Japanese dining options. At a Hibachi grill, you can watch a cook flip, fry, griddle and cut the food in front of you. This cuisine focuses on noodles, tofu, sushi and vegetables. Each meal is meticulously prepared and exceptionally delicious. Even better, Japanese restaurants often serve oolong or green tea.</b></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://previews.123rf.com/images/baibakova/baibakova1807/baibakova180700155/105220909-american-food-fast-food-top-view.jpg" alt="Croissant" style="width:100%">
+        <h3><b>American Cuisine</b></h3>
+        <p><b>American food is an extremely popular dining option. With so many cultures moving in and out of the country, American food encompasses a range of different dining styles. In Chicago, the deep dish pizza has become famous. Texas has five-alarm chili while the Pacific Northwest is home to microbreweries and coffee. At most traditional American diners, you can expect hot dogs, hamburgers, buffalo wings, biscuits & gravy and omelets.</b></p>
+    </div>
+  </div>
+<br>
+    <br><br><br>
+    <div class="w3-row-padding w3-padding-16 w3-center" id="about">
+  <div class="slideshow-container" style="max-width: 8000px" "min-height: 10500x">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+    <img src="http://getwallpapers.com/wallpaper/full/4/3/8/489998.jpg" background-size="cover" style="width: 100%">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="https://wallsdesk.com/wp-content/uploads/2017/01/Fast-Food-High-Definition.jpg" style="width:100%">
+  
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br>
+    <footer>
+    <div class="w3-third">
+        <h3><font color="white">BLOG POSTS</font></h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+            <span class="w3-large"><font color="white">Visit my blog at</font></span><br>
+            <span><font color="white">www.cuisine_98.com</font></span>
+        </li>
+        <li class="w3-padding-16">
+            <span class="w3-large"><font color="white">Keep yourselt updated by following me on my social media page</font></span><br>
+          <span><font color="white">https://www.instagram/cuisine_98.com</font></span>
+        </li> 
+      </ul>
+    </div>
+    <div class="w3-third w3-serif">
+        <h3><font color="white">POPULAR TAGS</font></h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dinner</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Salmon</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">France</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Drinks</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Flavors</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cuisine</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Chicken</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dressing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fried</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fish</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Duck</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>

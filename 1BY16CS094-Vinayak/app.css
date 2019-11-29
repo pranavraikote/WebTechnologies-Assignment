@@ -1,0 +1,114 @@
+
+html{
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    background-color: #232323;
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+}
+
+nav{
+    margin-top: 0;
+    background-color: aliceblue;
+    padding: 2px;
+    
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+h3{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+   }
+
+
+p{
+    margin: 0;
+}
+
+.square{
+background-color: blueviolet;
+padding-bottom: 25%;
+margin: 1.66%;
+float: left;
+width: 30%;
+border-radius: 15px;
+}
+
+
+
+.focus{
+   
+    background-color: rgb(66, 112, 177) ;
+    border: 1px solid white;
+}
+
+.header{
+   
+    padding: 30px;
+    margin: 0;
+    background-color:rgb(66, 112, 177);
+    height: 30%;
+    text-transform: uppercase;
+    
+}
+
+#container{
+    width: 50%;
+     padding: 20px;
+    /*  if u have givenm the width to the div the use "margin:0 auto;"  */
+    margin: 0 auto;
+    
+}
+
+#playAgain{
+    margin-left: 0;
+    margin-right: 15%;
+    color: rgb(66, 112, 177);
+}
+
+#hard{
+    margin-left: 20px;
+    color: rgb(66, 112, 177);
+    border-radius: 6px;
+    padding: 4px;
+}
+
+#easy{
+   
+    color: rgb(66, 112, 177);
+    border-radius: 6px;
+    padding: 4px;
+
+}
+
+#rgb{
+    font-weight: 200;
+    font-size: 3.5rem;
+    text-decoration: underline;
+}
+
+#hint{
+    margin-right: 15%;
+}
+
+#easy:hover{
+    text-decoration: underline;
+}
+
+#hard:hover{
+    text-decoration: underline;
+}

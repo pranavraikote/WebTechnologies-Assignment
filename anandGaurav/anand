@@ -1,0 +1,687 @@
+<?php include'dbconn.php'?>
+<?php session_start(); ?>
+<?php
+$var=$_SESSION['manager'];
+?>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Bmsit News Letter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="main.js"></script>
+  <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  <style>
+    body {
+      background:#E6E6FA ;
+    }
+    </style>
+</head>
+<body >
+  <div>
+    <nav class="navbar navbar-expand-sm bg-secondary fixed-top">
+      <li class="nav-link">
+        <div class="dropdown">
+          <button class="btn btn-dark dropdown-toggle" type="button" data-toggle="dropdown">Menu
+          <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Admin</a><b class="caret"></b></li>
+            <li><a href="aboutus.php">About Us<b class="caret"></b></a></li>
+            <li><a href="contact.php">Contact Us<b class="caret"></b></a></li>
+          </ul>
+        </div>
+        </li>
+    <img src="BMSIT Logo.png" class="mx-auto rounded" style="width: 45px;"> 
+    <a href="register.php"><button class="btn btn-outline-warning" id="signIn">Register</button></a>
+    <a href="welcome.php"><button class="btn btn-outline-light" style="margin-left: 5px;" id="signUp" >Log Out</button></a>
+    </nav>
+    </div>
+
+
+    <div id="demo" class="carousel slide" data-ride="carousel" style="margin-top:80px;margin-bottom: 50px">
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+          <div class="carousel-item ">
+            <img src="college3.png" alt="Los Angeles" width="100%" height="550">
+            <div class="carousel-caption">
+              <h3>BMSIT</h3>
+              <p>We had such a great time in BMSIT!</p>
+            </div>   
+          </div>
+          <div class="carousel-item active">
+            <img src="IMG_8299__1452767746_99183.jpg" alt="Chicago" width="100%" height="500" >
+            <div class="carousel-caption">
+              <h3>BMSIT</h3>
+              <p>Thank you, BMSIT!</p>
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img src="college2.jpg" alt="New York" width="100%" height="500">
+            <div class="carousel-caption">
+              <h3>BMSIT</h3>
+              <p>We love Apple!</p>
+            </div>   
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+      <marquee class="text-danger"  style="font-size: 30px; margin-bottom: 30px;">7th Sem external exam will start from 15th of december.All the best:)</marquee>
+      <div class="row">
+  <div class="col-2">
+    <div class="list-group" id="list-tab" role="tablist">
+      <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#january" role="tab" aria-controls="home">January</a>
+      <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#february" role="tab" aria-controls="profile">February</a>
+      <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#march" role="tab" aria-controls="messages">March</a>
+      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#april" role="tab" aria-controls="settings">April</a>
+    
+      <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#may" role="tab" aria-controls="profile">May</a>
+      <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#june" role="tab" aria-controls="messages">June</a>
+      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#july" role="tab" aria-controls="settings">July</a>
+      <a class="list-group-item list-group-item-action " id="list-home-list" data-toggle="list" href="#august" role="tab" aria-controls="home">August</a>
+      <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#september" role="tab" aria-controls="profile">September</a>
+      <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#october" role="tab" aria-controls="messages">October</a>
+      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#november" role="tab" aria-controls="settings">November</a>
+        <a class="list-group-item list-group-item-action " id="list-home-list" data-toggle="list" href="#december" role="tab" aria-controls="home">December</a>
+
+
+    </div>
+  </div>
+  
+   
+  <div class="col-9">
+
+    
+     
+      
+       <div class="tab-pane fade show active collapse" id="january" role="tabpanel" aria-labelledby="list-home-list">
+      
+    <div class="tab-content" id="nav-tabContent">
+      <?php
+                                $query="SELECT * FROM `textarea` where dateselect='January'";
+                                $result=mysqli_query($conn,$query);
+    while ($row = mysqli_fetch_array($result)) {
+      
+     ?>
+
+       <div class="card-header bg-light" style="margin-bottom: 10px">
+                      <div class="row">
+                        <div class="col-md-9">
+              <blockquote class="blockquote">
+                  <p class="mb-0">
+                         <center ><font color="red"> <?php                    
+      echo "<p>".$row['formselect']."</p>";
+     ?></font> </center>
+          <?php                    
+      echo "<p>".$row['text']."</p>";
+     ?>               
+                  </p>
+                  <footer class="blockquote-footer">
+                    <?php 
+                    $essn=$row['essn'];
+                    $query1="SELECT fname FROM `registertable` where essn=$essn";
+                    $result1=mysqli_query($conn,$query1);
+                    $row1 = mysqli_fetch_array($result1);
+                    echo $row1[0];
+                    ?>
+                    <cite>, CSE</cite>
+                  </footer>
+                </blockquote>
+              </div>
+                <div class="col-md-3">
+                          <img alt="Bootstrap Image Preview" src="placement.jpg" />
+                        </div>
+                      </div>                  
+          </div>
+                <?php
+           }
+    ?>
+         
+          </div>
+        </div>
+        
+   <div class="tab-pane fade show collapse" id="february" role="tabpanel" aria-labelledby="list-profile-list">
+      
+    <div class="tab-content" id="nav-tabContent">
+     <?php
+                                $query="SELECT * FROM `textarea` where dateselect='february'";
+                                $result=mysqli_query($conn,$query);
+    while ($row = mysqli_fetch_array($result)) {
+      
+     ?>
+      
+       
+
+       <div class="card-header bg-light" style="margin-bottom: 10px">
+                      <div class="row">
+                        <div class="col-md-9">
+              <blockquote class="blockquote">
+                  <p class="mb-0">
+                      <center ><font color="red"> <?php                    
+      echo "<p>".$row['formselect']."</p>";
+     ?></font> </center>
+          <?php                    
+      echo "<p>".$row['text']."</p>";
+     ?>               
+                  </p>
+                  <footer class="blockquote-footer">
+                    <?php 
+                    $essn=$row['essn'];
+                    $query1="SELECT fname FROM `registertable` where essn=$essn";
+                    $result1=mysqli_query($conn,$query1);
+                    $row1 = mysqli_fetch_array($result1);
+                    echo $row1[0];
+                    ?>
+                    <cite>, CSE</cite>
+                  </footer>
+                </blockquote>
+              </div>
+                <div class="col-md-3">
+                          <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+                        </div>
+                      </div>                  
+          </div>
+            <?php
+           }
+    ?>
+         
+          </div>
+        </div>
+         
+   <div class="tab-pane fade show collapse" id="march" role="tabpanel" aria-labelledby="list-profile-list">
+      
+    <div class="tab-content" id="nav-tabContent">
+     <?php
+                                $query="SELECT * FROM `textarea` where dateselect='march'";
+                                $result=mysqli_query($conn,$query);
+    while ($row = mysqli_fetch_array($result)) {
+      
+     ?>
+      
+       
+
+       <div class="card-header bg-light" style="margin-bottom: 10px">
+                      <div class="row">
+                        <div class="col-md-9">
+              <blockquote class="blockquote">
+                  <p class="mb-0">
+                      <center ><font color="red"> <?php                    
+      echo "<p>".$row['formselect']."</p>";
+     ?></font> </center>
+          <?php                    
+      echo "<p>".$row['text']."</p>";
+     ?>               
+                  </p>
+                  <footer class="blockquote-footer">
+                    <?php 
+                    $essn=$row['essn'];
+                    $query1="SELECT fname FROM `registertable` where essn=$essn";
+                    $result1=mysqli_query($conn,$query1);
+                    $row1 = mysqli_fetch_array($result1);
+                    echo $row1[0];
+                    ?>
+                    <cite>, CSE</cite>
+                  </footer>
+                </blockquote>
+              </div>
+                <div class="col-md-3">
+                          <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+                        </div>
+                      </div>                  
+          </div>
+            <?php
+           }
+    ?>
+         
+          </div>
+        </div>
+         
+   <div class="tab-pane fade show collapse" id="april" role="tabpanel" aria-labelledby="list-profile-list">
+      
+    <div class="tab-content" id="nav-tabContent">
+     <?php
+                                $query="SELECT * FROM `textarea` where dateselect='april'";
+                                $result=mysqli_query($conn,$query);
+    while ($row = mysqli_fetch_array($result)) {
+      
+     ?>
+      
+       
+
+       <div class="card-header bg-light" style="margin-bottom: 10px">
+                      <div class="row">
+                        <div class="col-md-9">
+              <blockquote class="blockquote">
+                  <p class="mb-0">
+                      <center ><font color="red"> <?php                    
+      echo "<p>".$row['formselect']."</p>";
+     ?></font> </center>
+          <?php                    
+      echo "<p>".$row['text']."</p>";
+     ?>               
+                  </p>
+                  <footer class="blockquote-footer">
+                    <?php 
+                    $essn=$row['essn'];
+                    $query1="SELECT fname FROM `registertable` where essn=$essn";
+                    $result1=mysqli_query($conn,$query1);
+                    $row1 = mysqli_fetch_array($result1);
+                    echo $row1[0];
+                    ?>
+                    <cite>, CSE</cite>
+                  </footer>
+                </blockquote>
+              </div>
+                <div class="col-md-3">
+                          <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+                        </div>
+                      </div>                  
+          </div>
+            <?php
+           }
+    ?>
+         
+          </div>
+        </div>
+
+   <div class="tab-pane fade show collapse" id="may" role="tabpanel" aria-labelledby="list-profile-list">
+      
+    <div class="tab-content" id="nav-tabContent">
+     <?php
+                                $query="SELECT * FROM `textarea` where dateselect='may'";
+                                $result=mysqli_query($conn,$query);
+    while ($row = mysqli_fetch_array($result)) {
+      
+     ?>
+      
+       
+
+       <div class="card-header bg-light" style="margin-bottom: 10px">
+                      <div class="row">
+                        <div class="col-md-9">
+              <blockquote class="blockquote">
+                  <p class="mb-0">
+                      <center ><font color="red"> <?php                    
+      echo "<p>".$row['formselect']."</p>";
+     ?></font> </center>
+          <?php                    
+      echo "<p>".$row['text']."</p>";
+     ?>               
+                  </p>
+                  <footer class="blockquote-footer">
+                    <?php 
+                    $essn=$row['essn'];
+                    $query1="SELECT fname FROM `registertable` where essn=$essn";
+                    $result1=mysqli_query($conn,$query1);
+                    $row1 = mysqli_fetch_array($result1);
+                    echo $row1[0];
+                    ?>
+                    <cite>, CSE</cite>
+                  </footer>
+                </blockquote>
+              </div>
+                <div class="col-md-3">
+                          <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+                        </div>
+                      </div>                  
+          </div>
+            <?php
+           }
+    ?>
+         
+          </div>
+        </div>
+    <div class="tab-pane fade show collapse" id="june" role="tabpanel" aria-labelledby="list-profile-list">
+      
+    <div class="tab-content" id="nav-tabContent">
+     <?php
+                                $query="SELECT * FROM `textarea` where dateselect='june'";
+                                $result=mysqli_query($conn,$query);
+    while ($row = mysqli_fetch_array($result)) {
+      
+     ?>
+      
+       
+
+       <div class="card-header bg-light" style="margin-bottom: 10px">
+                      <div class="row">
+                        <div class="col-md-9">
+              <blockquote class="blockquote">
+                  <p class="mb-0">
+                      <center ><font color="red"> <?php                    
+      echo "<p>".$row['formselect']."</p>";
+     ?></font> </center>
+          <?php                    
+      echo "<p>".$row['text']."</p>";
+     ?>               
+                  </p>
+                  <footer class="blockquote-footer">
+                    <?php 
+                    $essn=$row['essn'];
+                    $query1="SELECT fname FROM `registertable` where essn=$essn";
+                    $result1=mysqli_query($conn,$query1);
+                    $row1 = mysqli_fetch_array($result1);
+                    echo $row1[0];
+                    ?>
+                    <cite>, CSE</cite>
+                  </footer>
+                </blockquote>
+              </div>
+                <div class="col-md-3">
+                          <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+                        </div>
+                      </div>                  
+          </div>
+            <?php
+           }
+    ?>
+         
+          </div>
+        </div>
+     <div class="tab-pane fade show collapse" id="july" role="tabpanel" aria-labelledby="list-profile-list">
+      
+    <div class="tab-content" id="nav-tabContent">
+     <?php
+                                $query="SELECT * FROM `textarea` where dateselect='july'";
+                                $result=mysqli_query($conn,$query);
+    while ($row = mysqli_fetch_array($result)) {
+      
+     ?>
+      
+       
+
+       <div class="card-header bg-light" style="margin-bottom: 10px">
+                      <div class="row">
+                        <div class="col-md-9">
+              <blockquote class="blockquote">
+                  <p class="mb-0">
+                      <center ><font color="red"> <?php                    
+      echo "<p>".$row['formselect']."</p>";
+     ?></font> </center>
+          <?php                    
+      echo "<p>".$row['text']."</p>";
+     ?>               
+                  </p>
+                  <footer class="blockquote-footer">
+                    <?php 
+                    $essn=$row['essn'];
+                    $query1="SELECT fname FROM `registertable` where essn=$essn";
+                    $result1=mysqli_query($conn,$query1);
+                    $row1 = mysqli_fetch_array($result1);
+                    echo $row1[0];
+                    ?>
+                    <cite>, CSE</cite>
+                  </footer>
+                </blockquote>
+              </div>
+                <div class="col-md-3">
+                          <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+                        </div>
+                      </div>                  
+          </div>
+            <?php
+           }
+    ?>
+         
+          </div>
+        </div>
+   
+     <div class="tab-pane fade show collapse" id="august" role="tabpanel" aria-labelledby="list-profile-list">
+      
+    <div class="tab-content" id="nav-tabContent">
+     <?php
+                                $query="SELECT * FROM `textarea` where dateselect='august'";
+                                $result=mysqli_query($conn,$query);
+    while ($row = mysqli_fetch_array($result)) {
+      
+     ?>
+      
+       
+
+       <div class="card-header bg-light" style="margin-bottom: 10px">
+                      <div class="row">
+                        <div class="col-md-9">
+              <blockquote class="blockquote">
+                  <p class="mb-0">
+                      <center ><font color="red"> <?php                    
+      echo "<p>".$row['formselect']."</p>";
+     ?></font> </center>
+          <?php                    
+      echo "<p>".$row['text']."</p>";
+     ?>               
+                  </p>
+                  <footer class="blockquote-footer">
+                    <?php 
+                    $essn=$row['essn'];
+                    $query1="SELECT fname FROM `registertable` where essn=$essn";
+                    $result1=mysqli_query($conn,$query1);
+                    $row1 = mysqli_fetch_array($result1);
+                    echo $row1[0];
+                    ?>
+                    <cite>, CSE</cite>
+                  </footer>
+                </blockquote>
+              </div>
+                <div class="col-md-3">
+                          <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+                        </div>
+                      </div>                  
+          </div>
+            <?php
+           }
+    ?>
+         
+          </div>
+        </div>
+    <div class="tab-pane fade show collapse" id="september" role="tabpanel" aria-labelledby="list-profile-list">
+      
+    <div class="tab-content" id="nav-tabContent">
+     <?php
+                                $query="SELECT * FROM `textarea` where dateselect='september'";
+                                $result=mysqli_query($conn,$query);
+    while ($row = mysqli_fetch_array($result)) {
+      
+     ?>
+      
+       
+
+       <div class="card-header bg-light" style="margin-bottom: 10px">
+                      <div class="row">
+                        <div class="col-md-9">
+              <blockquote class="blockquote">
+                  <p class="mb-0">
+                      <center ><font color="red"> <?php                    
+      echo "<p>".$row['formselect']."</p>";
+     ?></font> </center>
+          <?php                    
+      echo "<p>".$row['text']."</p>";
+     ?>               
+                  </p>
+                  <footer class="blockquote-footer">
+                    <?php 
+                    $essn=$row['essn'];
+                    $query1="SELECT fname FROM `registertable` where essn=$essn";
+                    $result1=mysqli_query($conn,$query1);
+                    $row1 = mysqli_fetch_array($result1);
+                    echo $row1[0];
+                    ?>
+                    <cite>, CSE</cite>
+                  </footer>
+                </blockquote>
+              </div>
+                <div class="col-md-3">
+                          <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+                        </div>
+                      </div>                  
+          </div>
+            <?php
+           }
+    ?>
+         
+          </div>
+        </div>
+    <div class="tab-pane fade show collapse" id="october" role="tabpanel" aria-labelledby="list-profile-list">
+      
+    <div class="tab-content" id="nav-tabContent">
+     <?php
+                                $query="SELECT * FROM `textarea` where dateselect='october'";
+                                $result=mysqli_query($conn,$query);
+    while ($row = mysqli_fetch_array($result)) {
+      
+     ?>
+      
+       
+
+       <div class="card-header bg-light" style="margin-bottom: 10px">
+                      <div class="row">
+                        <div class="col-md-9">
+              <blockquote class="blockquote">
+                  <p class="mb-0">
+                      <center ><font color="red"> <?php                    
+      echo "<p>".$row['formselect']."</p>";
+     ?></font> </center>
+          <?php                    
+      echo "<p>".$row['text']."</p>";
+     ?>               
+                  </p>
+                  <footer class="blockquote-footer">
+                    <?php 
+                    $essn=$row['essn'];
+                    $query1="SELECT fname FROM `registertable` where essn=$essn";
+                    $result1=mysqli_query($conn,$query1);
+                    $row1 = mysqli_fetch_array($result1);
+                    echo $row1[0];
+                    ?>
+                    <cite>, CSE</cite>
+                  </footer>
+                </blockquote>
+              </div>
+                <div class="col-md-3">
+                          <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+                        </div>
+                      </div>                  
+          </div>
+            <?php
+           }
+    ?>
+         
+          </div>
+        </div>
+    <div class="tab-pane fade show collapse" id="november" role="tabpanel" aria-labelledby="list-profile-list">
+      
+    <div class="tab-content" id="nav-tabContent">
+     <?php
+                                $query="SELECT * FROM `textarea` where dateselect='November'";
+                                $result=mysqli_query($conn,$query);
+    while ($row = mysqli_fetch_array($result)) {
+      
+     ?>
+      
+       
+
+       <div class="card-header bg-light" style="margin-bottom: 10px">
+                      <div class="row">
+                        <div class="col-md-9">
+              <blockquote class="blockquote">
+                  <p class="mb-0">
+                      <center ><font color="red"> <?php                    
+      echo "<p>".$row['formselect']."</p>";
+     ?></font> </center>
+          <?php                    
+      echo "<p>".$row['text']."</p>";
+     ?>               
+                  </p>
+                  <footer class="blockquote-footer">
+                    <?php 
+                    $essn=$row['essn'];
+                    $query1="SELECT fname FROM `registertable` where essn=$essn";
+                    $result1=mysqli_query($conn,$query1);
+                    $row1 = mysqli_fetch_array($result1);
+                    echo $row1[0];
+                    ?>
+                    <cite>, CSE</cite>
+                  </footer>
+                </blockquote>
+              </div>
+                <div class="col-md-3">
+                          <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+                        </div>
+                      </div>                  
+          </div>
+            <?php
+           }
+    ?>
+         
+          </div>
+        </div>
+    <div class="tab-pane fade show collapse" id="december" role="tabpanel" aria-labelledby="list-profile-list">
+      
+    <div class="tab-content" id="nav-tabContent">
+     <?php
+                                $query="SELECT * FROM `textarea` where dateselect='december'";
+                                $result=mysqli_query($conn,$query);
+    while ($row = mysqli_fetch_array($result)) {
+      
+     ?>
+      
+       
+
+       <div class="card-header bg-light" style="margin-bottom: 10px">
+                      <div class="row">
+                        <div class="col-md-9">
+              <blockquote class="blockquote">
+                  <p class="mb-0">
+                      <center ><font color="red"> <?php                    
+      echo "<p>".$row['formselect']."</p>";
+     ?></font> </center>
+          <?php                    
+      echo "<p>".$row['text']."</p>";
+     ?>               
+                  </p>
+                  <footer class="blockquote-footer">
+                    <?php 
+                    $essn=$row['essn'];
+                    $query1="SELECT fname FROM `registertable` where essn=$essn";
+                    $result1=mysqli_query($conn,$query1);
+                    $row1 = mysqli_fetch_array($result1);
+                    echo $row1[0];
+                    ?>
+                    <cite>, CSE</cite>
+                  </footer>
+                </blockquote>
+              </div>
+                <div class="col-md-3">
+                          <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+                        </div>
+                      </div>                  
+          </div>
+            <?php
+           }
+    ?>
+         
+          </div>
+        </div>
+   
+  </div>
+         
+
+</div>
+<footer class="page-footer font-small bg-dark" style="margin-top: 50px">
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+  </div>
+</footer>
+<script src="jquery-3.3.1.min.js"></script>
+<script src="bootstrap.js"></script>
+</body>
+</html>

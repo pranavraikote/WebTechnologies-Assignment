@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<title>Cafe Nosh</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://s3-ap-southeast-1.amazonaws.com/assets.limetray.com/assets/user_images/gallery_images/original/1511357797_GlNosh6.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">MENU</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">WHERE</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container " id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Open from 6am to 5pm</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">Cafe Nosh</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">Bakersfeild, Church Street</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE CAFE</span></h5>
+    <p>Hello foodies! Introducing you to our very own web portal.</p>
+    <p>Nosh is a small cafe tucked in the interiors of Sahakarnagar. As true believers of customer satisfaction and quality service, we strive to ensure that our customers are never dissatisfied. Step into the world of yummy food or order online NOW!</p>
+    <div class="w3-panel w3-leftbar ">
+      <p><i>Restoring authenticity to food from the ground up is the missioin that drives us.
+Restauration is the realization of a dream.</i></p>
+      <p>Chef, Coffeeist and Owner: Liam Brown</p>
+    </div>
+    <img src="https://im1.dineout.co.in/images/uploads/restaurant/sharpen/5/h/o/p59757-15687237035d80d2f764138.jpg?tr=tr:n-xlarge" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
+    <p><strong>Address:</strong> Bakersfeild, Church Street, Bangalore</p>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE MENU</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="w3-col s6 tablink">Eat</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="w3-col s6 tablink">Drink</div>
+      </a>
+    </div>
+
+    <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Bread Basket</h5>
+      <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins Rs 160</p><br>
+    
+      <h5>Honey Almond Granola with Fruits</h5>
+      <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates Rs 140</p><br>
+    
+      <h5>Belgian Waffle</h5>
+      <p class="w3-text-grey">Vanilla flavored batter with malted flour Rs 165</p><br>
+    
+      <h5>Scrambled eggs</h5>
+      <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions Rs 99</p><br>
+    
+      <h5>Blueberry Pancakes</h5>
+      <p class="w3-text-grey">With syrup, butter and lots of berries Rs 120</p>
+    </div>
+
+    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Coffee</h5>
+      <p class="w3-text-grey">Regular coffee Rs 50</p><br>
+    
+      <h5>Chocolato</h5>
+      <p class="w3-text-grey">Chocolate espresso with milk Rs 60</p><br>
+    
+      <h5>Corretto</h5>
+      <p class="w3-text-grey">Whiskey and coffee Rs 70</p><br>
+    
+      <h5>Iced tea</h5>
+      <p class="w3-text-grey">Hot tea, except not hot Rs 30</p><br>
+    
+      <h5>Soda</h5>
+      <p class="w3-text-grey">Coke, Sprite, Fanta, etc. Rs 25</p>
+    </div>  
+    <img src="https://www.w3schools.com/w3images/coffeehouse2.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WHERE TO FIND US</span></h5>
+    <p>Find us at some address at some place.</p>
+    <img src="map.jpg" class="w3-image" style="width:100%">
+    <p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+    <p><strong>Address:</strong>4th phase #73G, 3rd Main Rd, Self Financed Society 407 Colony, Yelahanka New Town, Bengaluru, Karnataka 560064</p>
+     <p><strong>Reservations:</strong> zomato.com, dineout.co.in</p>
+      <p><strong>Order:</strong> zomato.com</p>
+       <p><strong>Phone:</strong>  088840 04444</p>
+    
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Any Query contact: cafenosh@gmail.com</p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>

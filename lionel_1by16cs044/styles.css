@@ -1,0 +1,144 @@
+* {box-sizing: border-box;}
+
+/** {border: 1px solid darkgrey;} */
+
+.jumbotron {
+	background-color: #1A1A1A;
+	background-image: url("cafe1.jpg");
+	background-size: cover;
+	background-position: 50% -115px;
+	padding-top: 0;
+	padding-bottom: 150px;
+	margin: 0;
+	color: #F7F7F7;
+}
+
+nav {
+	z-index: 10;
+}
+
+.affix {
+   	top: 0;
+    width: 100%;
+}
+
+.affix + .about {
+      padding-top: 55px;
+  }
+
+#about {
+	text-align: center;
+}
+
+.img-responsive {
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #aaa;
+}
+
+#pick-music {
+	text-align: center;
+	background-color: #1A1A1A; 
+	color: #fff;
+	font-family: Futura, sans-serif;
+	padding-bottom: 50px;
+}
+
+.mood {
+	-webkit-perspective: 600px;
+	perspective: 600px;
+	float: left;
+	width: 125px;
+    height: 125px;
+    border: none;
+    letter-spacing: 1px;
+}
+
+.mood:hover .front{
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+}
+.mood:hover .back {
+	-webkit-transform: rotateY(0);
+	transform: rotate(0);
+}
+
+.mood:hover {
+	text-decoration: none;
+}
+
+.front {
+	position: absolute;
+	z-index: 1;
+}
+
+.side {
+	border-radius: 3px;
+    background-color: #FF6763;
+    color: #fff;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+	height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 6px 2px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.back {
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+	background-color: #FFF;
+	color: #1A1A1A;
+	font-weight: bold;
+}
+
+.back p {
+	margin-top: 10px;
+}
+
+.music {
+	background-color: #F7F7F7;
+}
+
+.music .container {
+	background-color: #FFF;
+}
+
+.music .row {
+	border-bottom: 2px solid #eee;
+	margin: 20px 0;
+}
+
+.music h3 {
+	margin-top: 0;
+}
+
+h1 h2 h3 h4 {
+	font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+}
+
+p {
+	/*font-family: 'Vollkorn', Georgia, Times, serif;*/
+}
+
+body {
+	background-color: #F7F7F7;
+	background-size: 100% 100%;
+}
+
+footer {
+	text-align: center;
+	background-color: #EEE;
+	margin: 0;
+	padding: 20px 0;
+}
+
+/* Typography */

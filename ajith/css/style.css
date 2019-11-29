@@ -1,0 +1,57 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+/*----------------top--------------------*/
+#nv {
+	background-color:black;
+	border-bottom:inset 4px rgba(241, 193, 50, 0.97);
+	
+}
+div#l.col-md-4{
+	text-align:center;color:rgba(241, 193, 50, 0.97);;font-family: 'Audiowide', cursive;font-size:-webkit-xxx-large;font-size:48px;padding-top:23px;
+}
+div#z.col-md-3{
+	padding-top:28px;
+}
+div#o.col-md-6 a{
+	text-decoration:none;color:#c7bcbc;text-align:center;font-family: 'Asap', sans-serif;font-size:18px;
+}
+div#o.col-md-6 a:hover{
+	text-decoration:none;color:rgba(241, 193, 50, 0.97);text-align:center;font-family: 'Asap', sans-serif;font-size:22px;border-bottom:outset 2px rgba(241, 193, 50, 0.97);;border-radius:2px;font-size:22px;
+}
+/*-----------------main-----------------*/
+#main{
+	background-color:lightgrey;
+	
+}
+/*------------*/
+
+.q{
+position: absolute;
+right:0;
+-webkit-animation-name:move; /* Safari 4.0 - 8.0 */
+-webkit-animation-duration: 6s; /* Safari 4.0 - 8.0 */
+-webkit-animation-iteration-count:50; /* Safari 4.0 - 8.0 */
+animation-name: move; animation-duration: 6s; animation-iteration-count:infinte;
+float:right;
+}
+
+@keyframes move {
+from {right: 0px;}
+to {right: 1024px;}
+}
+/*----------------------------------about us----------------*/
+div#jk{
+	border-right:inset 2px black;
+	
+}
+/*---------footer-----*/
+i{
+	font-size:50px;
+	color:white;
+	padding:2%;
+}
+
+
+

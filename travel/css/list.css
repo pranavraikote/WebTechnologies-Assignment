@@ -1,0 +1,9 @@
+.bgimg{
+	background-image: url("fog.jpeg");
+	background-repeat: repeat-x;
+}
+.card : hover {
+	-webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}

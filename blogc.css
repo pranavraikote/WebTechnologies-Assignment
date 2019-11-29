@@ -1,0 +1,104 @@
+
+body{
+	background-color:	#3D383B;
+	font-family:Caveat;
+	color:white;
+	margin:60px;	
+	font-size:40px;	
+}
+
+.craft1{
+	float:left;
+	border:3px  solid black;
+	width:32%;
+	border-radius:10%;
+	height:500px;
+ }
+
+
+ .section{
+	margin-left:30%;
+	text-align:justify;
+	font-family:Caveat;
+}
+
+h2{
+	text-align:center;
+}
+
+h1 {
+	font-style:italic;
+	font-weight:normal;
+	text-align: center;
+	text-shadow:4px 4px 8px black;
+	color:white;
+	font-family:'Crafty Girls';
+	padding-top:50px;
+}
+
+.quote{
+	text-align:right;
+}
+
+.header{
+	background-image:url(pictures\blogjpg.jpg);
+	height:200px;
+}
+
+.media{
+	text-align:center;
+}
+
+.iclass{
+	 border: 3px solid white;
+	border-radius: 50%;
+}
+
+input[type="text"]{
+	width=30%;
+	border:2px solid white;
+	font-family:Caveat;
+	background-color:	#3D383B;
+	height:30px;
+	font-size:25px;
+}
+
+input[type="submit"]{
+	width=40%;
+	height:30px;
+	font-size:20px;	
+	font-family:Caveat;
+	border:3px solid white;
+}
+
+input[type="submit"]:hover{
+		background-color:white;
+		color:black;
+}
+
+input[type="reset"]{
+	width=40%;
+	height:30px;
+	font-size:20px;	
+	font-family:Caveat;
+	border:3px solid white;
+}
+
+input[type="reset"]:hover{
+		background-color:white;
+		color:black;
+}
+
+textarea{
+	width:85%;
+	background-color:	#3D383B;
+	border:3px solid white;
+	font-family:Caveat;
+	font-size:30px;
+	 border-radius:1%;
+	}
+	
+	
+p{
+	float:none;
+	}
